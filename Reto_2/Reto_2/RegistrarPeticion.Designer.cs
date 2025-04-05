@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegistrarPeticion));
             this.pb_Encabezado = new System.Windows.Forms.PictureBox();
             this.pnl_Barra = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
@@ -37,6 +38,7 @@
             this.btn_admin = new System.Windows.Forms.Button();
             this.btn_Inicio = new System.Windows.Forms.Button();
             this.pnl_Principal = new System.Windows.Forms.Panel();
+            this.lblCondicionEspecial = new System.Windows.Forms.Label();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -47,18 +49,19 @@
             this.solicitanteComboBox = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pb_Registrar = new System.Windows.Forms.PictureBox();
-            this.lblCondicionEspecial = new System.Windows.Forms.Label();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Encabezado)).BeginInit();
             this.pnl_Barra.SuspendLayout();
             this.pnl_Principal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Registrar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pb_Encabezado
             // 
             this.pb_Encabezado.Image = global::Reto_2.Properties.Resources.Captura_de_pantalla_2025_04_01_103943;
             this.pb_Encabezado.Location = new System.Drawing.Point(6, 2);
-            this.pb_Encabezado.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pb_Encabezado.Margin = new System.Windows.Forms.Padding(6);
             this.pb_Encabezado.Name = "pb_Encabezado";
             this.pb_Encabezado.Size = new System.Drawing.Size(2288, 271);
             this.pb_Encabezado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -75,7 +78,7 @@
             this.pnl_Barra.Controls.Add(this.btn_admin);
             this.pnl_Barra.Controls.Add(this.btn_Inicio);
             this.pnl_Barra.Location = new System.Drawing.Point(6, 265);
-            this.pnl_Barra.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pnl_Barra.Margin = new System.Windows.Forms.Padding(6);
             this.pnl_Barra.Name = "pnl_Barra";
             this.pnl_Barra.Size = new System.Drawing.Size(2288, 112);
             this.pnl_Barra.TabIndex = 4;
@@ -85,7 +88,7 @@
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Image = global::Reto_2.Properties.Resources.idioma;
             this.button1.Location = new System.Drawing.Point(1926, 15);
-            this.button1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.button1.Margin = new System.Windows.Forms.Padding(6);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(86, 87);
             this.button1.TabIndex = 5;
@@ -96,7 +99,7 @@
             this.btn_nocturno.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_nocturno.Image = global::Reto_2.Properties.Resources.nocturno;
             this.btn_nocturno.Location = new System.Drawing.Point(1810, 15);
-            this.btn_nocturno.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btn_nocturno.Margin = new System.Windows.Forms.Padding(6);
             this.btn_nocturno.Name = "btn_nocturno";
             this.btn_nocturno.Size = new System.Drawing.Size(86, 87);
             this.btn_nocturno.TabIndex = 4;
@@ -107,7 +110,7 @@
             this.btn_ayuda.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ayuda.Image = global::Reto_2.Properties.Resources.ayuda;
             this.btn_ayuda.Location = new System.Drawing.Point(1690, 15);
-            this.btn_ayuda.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btn_ayuda.Margin = new System.Windows.Forms.Padding(6);
             this.btn_ayuda.Name = "btn_ayuda";
             this.btn_ayuda.Size = new System.Drawing.Size(86, 87);
             this.btn_ayuda.TabIndex = 3;
@@ -118,7 +121,7 @@
             this.btn_zoom.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_zoom.Image = global::Reto_2.Properties.Resources.zoom;
             this.btn_zoom.Location = new System.Drawing.Point(1572, 15);
-            this.btn_zoom.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btn_zoom.Margin = new System.Windows.Forms.Padding(6);
             this.btn_zoom.Name = "btn_zoom";
             this.btn_zoom.Size = new System.Drawing.Size(86, 87);
             this.btn_zoom.TabIndex = 2;
@@ -129,7 +132,7 @@
             this.btn_admin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_admin.Image = global::Reto_2.Properties.Resources.configuracion;
             this.btn_admin.Location = new System.Drawing.Point(1456, 15);
-            this.btn_admin.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btn_admin.Margin = new System.Windows.Forms.Padding(6);
             this.btn_admin.Name = "btn_admin";
             this.btn_admin.Size = new System.Drawing.Size(86, 87);
             this.btn_admin.TabIndex = 1;
@@ -142,7 +145,7 @@
             this.btn_Inicio.ForeColor = System.Drawing.Color.White;
             this.btn_Inicio.Image = global::Reto_2.Properties.Resources.Captura_de_pantalla_2025_04_01_104725;
             this.btn_Inicio.Location = new System.Drawing.Point(358, 19);
-            this.btn_Inicio.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btn_Inicio.Margin = new System.Windows.Forms.Padding(6);
             this.btn_Inicio.Name = "btn_Inicio";
             this.btn_Inicio.Size = new System.Drawing.Size(78, 79);
             this.btn_Inicio.TabIndex = 0;
@@ -152,6 +155,7 @@
             // pnl_Principal
             // 
             this.pnl_Principal.BackColor = System.Drawing.Color.White;
+            this.pnl_Principal.Controls.Add(this.guna2PictureBox1);
             this.pnl_Principal.Controls.Add(this.lblCondicionEspecial);
             this.pnl_Principal.Controls.Add(this.guna2TextBox1);
             this.pnl_Principal.Controls.Add(this.label5);
@@ -164,10 +168,20 @@
             this.pnl_Principal.Controls.Add(this.label1);
             this.pnl_Principal.Controls.Add(this.pb_Registrar);
             this.pnl_Principal.Location = new System.Drawing.Point(450, 388);
-            this.pnl_Principal.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pnl_Principal.Margin = new System.Windows.Forms.Padding(6);
             this.pnl_Principal.Name = "pnl_Principal";
             this.pnl_Principal.Size = new System.Drawing.Size(1452, 985);
             this.pnl_Principal.TabIndex = 5;
+            // 
+            // lblCondicionEspecial
+            // 
+            this.lblCondicionEspecial.AutoSize = true;
+            this.lblCondicionEspecial.Location = new System.Drawing.Point(805, 162);
+            this.lblCondicionEspecial.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblCondicionEspecial.Name = "lblCondicionEspecial";
+            this.lblCondicionEspecial.Size = new System.Drawing.Size(491, 25);
+            this.lblCondicionEspecial.TabIndex = 17;
+            this.lblCondicionEspecial.Text = "(*)¿Te Encuentras en Alguna Condición Especial?";
             // 
             // guna2TextBox1
             // 
@@ -181,7 +195,7 @@
             this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox1.Location = new System.Drawing.Point(500, 627);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(12, 12, 12, 12);
+            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(12);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PlaceholderText = "Descripción";
             this.guna2TextBox1.SelectedText = "";
@@ -216,7 +230,7 @@
             "Felicitaciones",
             "Denuncias"});
             this.guna2ComboBox2.Location = new System.Drawing.Point(500, 496);
-            this.guna2ComboBox2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.guna2ComboBox2.Margin = new System.Windows.Forms.Padding(6);
             this.guna2ComboBox2.Name = "guna2ComboBox2";
             this.guna2ComboBox2.Size = new System.Drawing.Size(464, 36);
             this.guna2ComboBox2.TabIndex = 14;
@@ -243,7 +257,7 @@
             this.gtxt_Correo.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gtxt_Correo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.gtxt_Correo.Location = new System.Drawing.Point(500, 362);
-            this.gtxt_Correo.Margin = new System.Windows.Forms.Padding(12, 12, 12, 12);
+            this.gtxt_Correo.Margin = new System.Windows.Forms.Padding(12);
             this.gtxt_Correo.Name = "gtxt_Correo";
             this.gtxt_Correo.PlaceholderText = "Correo Electrónico";
             this.gtxt_Correo.SelectedText = "";
@@ -287,8 +301,8 @@
             "Niños, Niñas y Adolescentes",
             "Persona Jurídica",
             "Persona Natural"});
-            this.solicitanteComboBox.Location = new System.Drawing.Point(30, 203);
-            this.solicitanteComboBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.solicitanteComboBox.Location = new System.Drawing.Point(72, 203);
+            this.solicitanteComboBox.Margin = new System.Windows.Forms.Padding(6);
             this.solicitanteComboBox.Name = "solicitanteComboBox";
             this.solicitanteComboBox.Size = new System.Drawing.Size(464, 36);
             this.solicitanteComboBox.TabIndex = 9;
@@ -309,7 +323,7 @@
             // 
             this.pb_Registrar.Image = global::Reto_2.Properties.Resources.btn_Registrar;
             this.pb_Registrar.Location = new System.Drawing.Point(500, 867);
-            this.pb_Registrar.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pb_Registrar.Margin = new System.Windows.Forms.Padding(6);
             this.pb_Registrar.Name = "pb_Registrar";
             this.pb_Registrar.Size = new System.Drawing.Size(468, 96);
             this.pb_Registrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -317,15 +331,16 @@
             this.pb_Registrar.TabStop = false;
             this.pb_Registrar.Click += new System.EventHandler(this.pb_Registrar_Click);
             // 
-            // lblCondicionEspecial
+            // guna2PictureBox1
             // 
-            this.lblCondicionEspecial.AutoSize = true;
-            this.lblCondicionEspecial.Location = new System.Drawing.Point(827, 156);
-            this.lblCondicionEspecial.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.lblCondicionEspecial.Name = "lblCondicionEspecial";
-            this.lblCondicionEspecial.Size = new System.Drawing.Size(491, 25);
-            this.lblCondicionEspecial.TabIndex = 17;
-            this.lblCondicionEspecial.Text = "(*)¿Te Encuentras en Alguna Condición Especial?";
+            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(35, 203);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(38, 36);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 18;
+            this.guna2PictureBox1.TabStop = false;
             // 
             // RegistrarPeticion
             // 
@@ -336,7 +351,7 @@
             this.Controls.Add(this.pnl_Principal);
             this.Controls.Add(this.pnl_Barra);
             this.Controls.Add(this.pb_Encabezado);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "RegistrarPeticion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RegistrarPeticion";
@@ -345,6 +360,7 @@
             this.pnl_Principal.ResumeLayout(false);
             this.pnl_Principal.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Registrar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -371,5 +387,6 @@
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label lblCondicionEspecial;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
     }
 }
