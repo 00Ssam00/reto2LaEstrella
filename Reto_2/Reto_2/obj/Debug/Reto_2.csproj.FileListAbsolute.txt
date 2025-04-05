@@ -25,3 +25,18 @@ C:\Users\Usuario\Desktop\Reto 2\Reto_2\Reto_2\obj\Debug\Reto_2.exe
 C:\Users\Usuario\Desktop\Reto 2\Reto_2\Reto_2\obj\Debug\Reto_2.pdb
 C:\Users\Usuario\Desktop\Reto 2\Reto_2\Reto_2\obj\Debug\Reto_2.Pop_Up.resources
 C:\Users\Usuario\Desktop\Reto 2\Reto_2\Reto_2\obj\Debug\Reto_2.RegistrarPeticion.resources
+C:\Users\samue\OneDrive\Documentos\StockIQ\reto2LaEstrella\Reto_2\Reto_2\bin\Debug\Reto_2.exe.config
+C:\Users\samue\OneDrive\Documentos\StockIQ\reto2LaEstrella\Reto_2\Reto_2\bin\Debug\Reto_2.exe
+C:\Users\samue\OneDrive\Documentos\StockIQ\reto2LaEstrella\Reto_2\Reto_2\bin\Debug\Reto_2.pdb
+C:\Users\samue\OneDrive\Documentos\StockIQ\reto2LaEstrella\Reto_2\Reto_2\bin\Debug\Guna.UI2.dll
+C:\Users\samue\OneDrive\Documentos\StockIQ\reto2LaEstrella\Reto_2\Reto_2\obj\Debug\Reto_2.csproj.AssemblyReference.cache
+C:\Users\samue\OneDrive\Documentos\StockIQ\reto2LaEstrella\Reto_2\Reto_2\obj\Debug\Reto_2.HomePage.resources
+C:\Users\samue\OneDrive\Documentos\StockIQ\reto2LaEstrella\Reto_2\Reto_2\obj\Debug\Reto_2.Pop_Up.resources
+C:\Users\samue\OneDrive\Documentos\StockIQ\reto2LaEstrella\Reto_2\Reto_2\obj\Debug\Reto_2.Properties.Resources.resources
+C:\Users\samue\OneDrive\Documentos\StockIQ\reto2LaEstrella\Reto_2\Reto_2\obj\Debug\Reto_2.RegistrarPeticion.resources
+C:\Users\samue\OneDrive\Documentos\StockIQ\reto2LaEstrella\Reto_2\Reto_2\obj\Debug\Reto_2.ventanaAdmin.resources
+C:\Users\samue\OneDrive\Documentos\StockIQ\reto2LaEstrella\Reto_2\Reto_2\obj\Debug\Reto_2.csproj.GenerateResource.cache
+C:\Users\samue\OneDrive\Documentos\StockIQ\reto2LaEstrella\Reto_2\Reto_2\obj\Debug\Reto_2.csproj.CoreCompileInputs.cache
+C:\Users\samue\OneDrive\Documentos\StockIQ\reto2LaEstrella\Reto_2\Reto_2\obj\Debug\Reto_2.csproj.Up2Date
+C:\Users\samue\OneDrive\Documentos\StockIQ\reto2LaEstrella\Reto_2\Reto_2\obj\Debug\Reto_2.exe
+C:\Users\samue\OneDrive\Documentos\StockIQ\reto2LaEstrella\Reto_2\Reto_2\obj\Debug\Reto_2.pdb
