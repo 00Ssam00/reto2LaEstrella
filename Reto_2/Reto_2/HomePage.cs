@@ -18,27 +18,38 @@ namespace Reto_2
             InitializeComponent();
             
         }
-
-       
-
-        private void btn_Hide_Click(object sender, EventArgs e)
-        {
-            lbl_Parrafo2.Hide();
-
-        }
-
-        private void btn_admin_Click(object sender, EventArgs e)
+        private void adminButtonClick(object sender, EventArgs e) // Boton para abrir la ventana de admin
         {
             ventanaAdmin ventanaAdmin = new ventanaAdmin();
             this.Hide();
             ventanaAdmin.Show();
         }
 
-        private void pb_Registrar_Click(object sender, EventArgs e)
+        private void zoomButtonClick(object sender, EventArgs e)
+        {
+
+        }
+        private void btnRegistrarClick(object sender, EventArgs e)
         {
             RegistrarPeticion registrarPeticion = new RegistrarPeticion();
             this.Hide();
             registrarPeticion.Show();
+        }
+
+        private void lbl_Denuncia_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) // Esconder y mostrar el panel de denuncia
+        {
+            panelDenuncia.Visible = !panelDenuncia.Visible;
+
+        }
+
+        private void btnHideClick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnConsultarClick(object sender, EventArgs e)
+        {
+
         }
     }
 }

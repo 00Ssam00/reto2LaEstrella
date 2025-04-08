@@ -28,108 +28,114 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Pop_Up));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.gtxt_EscribeAqui1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.gtxt_EscribeAqui2 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.gbtn_enviar = new Guna.UI2.WinForms.Guna2Button();
-            this.gbtn_cancelar = new Guna.UI2.WinForms.Guna2Button();
+            this.txtNumeroID = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtCorreoRegistrado = new Guna.UI2.WinForms.Guna2TextBox();
+            this.btnEnviar = new Guna.UI2.WinForms.Guna2Button();
+            this.btnCancelar = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Reto_2.Properties.Resources.Pop_up;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(-1, -1);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(611, 302);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // gtxt_EscribeAqui1
+            // txtNumeroID
             // 
-            this.gtxt_EscribeAqui1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
-            this.gtxt_EscribeAqui1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.gtxt_EscribeAqui1.DefaultText = "";
-            this.gtxt_EscribeAqui1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.gtxt_EscribeAqui1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.gtxt_EscribeAqui1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.gtxt_EscribeAqui1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.gtxt_EscribeAqui1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
-            this.gtxt_EscribeAqui1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.gtxt_EscribeAqui1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gtxt_EscribeAqui1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.gtxt_EscribeAqui1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.gtxt_EscribeAqui1.Location = new System.Drawing.Point(21, 101);
-            this.gtxt_EscribeAqui1.Name = "gtxt_EscribeAqui1";
-            this.gtxt_EscribeAqui1.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(176)))));
-            this.gtxt_EscribeAqui1.PlaceholderText = "Escribe aquí";
-            this.gtxt_EscribeAqui1.SelectedText = "";
-            this.gtxt_EscribeAqui1.Size = new System.Drawing.Size(566, 37);
-            this.gtxt_EscribeAqui1.TabIndex = 5;
+            this.txtNumeroID.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.txtNumeroID.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtNumeroID.DefaultText = "";
+            this.txtNumeroID.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtNumeroID.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtNumeroID.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtNumeroID.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtNumeroID.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.txtNumeroID.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtNumeroID.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtNumeroID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtNumeroID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtNumeroID.Location = new System.Drawing.Point(12, 101);
+            this.txtNumeroID.Name = "txtNumeroID";
+            this.txtNumeroID.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(176)))));
+            this.txtNumeroID.PlaceholderText = "Numero de Identificacion";
+            this.txtNumeroID.SelectedText = "";
+            this.txtNumeroID.Size = new System.Drawing.Size(582, 36);
+            this.txtNumeroID.TabIndex = 5;
             // 
-            // gtxt_EscribeAqui2
+            // txtCorreoRegistrado
             // 
-            this.gtxt_EscribeAqui2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
-            this.gtxt_EscribeAqui2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.gtxt_EscribeAqui2.DefaultText = "";
-            this.gtxt_EscribeAqui2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.gtxt_EscribeAqui2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.gtxt_EscribeAqui2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.gtxt_EscribeAqui2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.gtxt_EscribeAqui2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
-            this.gtxt_EscribeAqui2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.gtxt_EscribeAqui2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gtxt_EscribeAqui2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.gtxt_EscribeAqui2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.gtxt_EscribeAqui2.Location = new System.Drawing.Point(21, 177);
-            this.gtxt_EscribeAqui2.Name = "gtxt_EscribeAqui2";
-            this.gtxt_EscribeAqui2.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(176)))));
-            this.gtxt_EscribeAqui2.PlaceholderText = "Escribe aquí";
-            this.gtxt_EscribeAqui2.SelectedText = "";
-            this.gtxt_EscribeAqui2.Size = new System.Drawing.Size(566, 37);
-            this.gtxt_EscribeAqui2.TabIndex = 6;
+            this.txtCorreoRegistrado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.txtCorreoRegistrado.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtCorreoRegistrado.DefaultText = "";
+            this.txtCorreoRegistrado.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtCorreoRegistrado.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtCorreoRegistrado.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtCorreoRegistrado.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtCorreoRegistrado.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.txtCorreoRegistrado.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtCorreoRegistrado.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtCorreoRegistrado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtCorreoRegistrado.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtCorreoRegistrado.Location = new System.Drawing.Point(12, 181);
+            this.txtCorreoRegistrado.Name = "txtCorreoRegistrado";
+            this.txtCorreoRegistrado.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(176)))));
+            this.txtCorreoRegistrado.PlaceholderText = "Correo Electronico";
+            this.txtCorreoRegistrado.SelectedText = "";
+            this.txtCorreoRegistrado.Size = new System.Drawing.Size(582, 37);
+            this.txtCorreoRegistrado.TabIndex = 6;
             // 
-            // gbtn_enviar
+            // btnEnviar
             // 
-            this.gbtn_enviar.BackColor = System.Drawing.Color.Red;
-            this.gbtn_enviar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.gbtn_enviar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.gbtn_enviar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.gbtn_enviar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.gbtn_enviar.FillColor = System.Drawing.Color.Red;
-            this.gbtn_enviar.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gbtn_enviar.ForeColor = System.Drawing.Color.White;
-            this.gbtn_enviar.Location = new System.Drawing.Point(523, 246);
-            this.gbtn_enviar.Name = "gbtn_enviar";
-            this.gbtn_enviar.Size = new System.Drawing.Size(64, 32);
-            this.gbtn_enviar.TabIndex = 7;
-            this.gbtn_enviar.Text = "Enviar";
+            this.btnEnviar.BackColor = System.Drawing.Color.Red;
+            this.btnEnviar.BorderRadius = 1;
+            this.btnEnviar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnEnviar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnEnviar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnEnviar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnEnviar.FillColor = System.Drawing.Color.Red;
+            this.btnEnviar.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnEnviar.ForeColor = System.Drawing.Color.White;
+            this.btnEnviar.Location = new System.Drawing.Point(528, 246);
+            this.btnEnviar.Name = "btnEnviar";
+            this.btnEnviar.Size = new System.Drawing.Size(66, 39);
+            this.btnEnviar.TabIndex = 7;
+            this.btnEnviar.Text = "Enviar";
+            this.btnEnviar.Click += new System.EventHandler(this.btnEnviarClick);
             // 
-            // gbtn_cancelar
+            // btnCancelar
             // 
-            this.gbtn_cancelar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.gbtn_cancelar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.gbtn_cancelar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.gbtn_cancelar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.gbtn_cancelar.FillColor = System.Drawing.Color.White;
-            this.gbtn_cancelar.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gbtn_cancelar.ForeColor = System.Drawing.Color.Black;
-            this.gbtn_cancelar.Location = new System.Drawing.Point(434, 246);
-            this.gbtn_cancelar.Name = "gbtn_cancelar";
-            this.gbtn_cancelar.Size = new System.Drawing.Size(83, 32);
-            this.gbtn_cancelar.TabIndex = 8;
-            this.gbtn_cancelar.Text = "Cancelar";
-            this.gbtn_cancelar.Click += new System.EventHandler(this.gbtn_cancelar_Click);
+            this.btnCancelar.BorderRadius = 1;
+            this.btnCancelar.BorderThickness = 1;
+            this.btnCancelar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnCancelar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnCancelar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnCancelar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCancelar.FillColor = System.Drawing.Color.White;
+            this.btnCancelar.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnCancelar.ForeColor = System.Drawing.Color.Black;
+            this.btnCancelar.Location = new System.Drawing.Point(436, 246);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(86, 39);
+            this.btnCancelar.TabIndex = 8;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelarClick);
             // 
             // Pop_Up
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(610, 300);
-            this.Controls.Add(this.gbtn_cancelar);
-            this.Controls.Add(this.gbtn_enviar);
-            this.Controls.Add(this.gtxt_EscribeAqui2);
-            this.Controls.Add(this.gtxt_EscribeAqui1);
+            this.Controls.Add(this.btnCancelar);
+            this.Controls.Add(this.btnEnviar);
+            this.Controls.Add(this.txtCorreoRegistrado);
+            this.Controls.Add(this.txtNumeroID);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Pop_Up";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -142,9 +148,9 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private Guna.UI2.WinForms.Guna2TextBox gtxt_EscribeAqui1;
-        private Guna.UI2.WinForms.Guna2TextBox gtxt_EscribeAqui2;
-        private Guna.UI2.WinForms.Guna2Button gbtn_enviar;
-        private Guna.UI2.WinForms.Guna2Button gbtn_cancelar;
+        private Guna.UI2.WinForms.Guna2TextBox txtNumeroID;
+        private Guna.UI2.WinForms.Guna2TextBox txtCorreoRegistrado;
+        private Guna.UI2.WinForms.Guna2Button btnEnviar;
+        private Guna.UI2.WinForms.Guna2Button btnCancelar;
     }
 }

@@ -17,17 +17,21 @@ namespace Reto_2
             InitializeComponent();
         }
 
-        private void btn_Inicio_Click(object sender, EventArgs e)
+        private void inicioButtonClick(object sender, EventArgs e)
         {
             HomePage homePage = new HomePage();
             this.Hide();
             homePage.Show();
-
         }
-
-        private void pb_Registrar_Click(object sender, EventArgs e)
+        private void checkBoxAutorizacionDatos_CheckedChanged(object sender, EventArgs e)
         {
 
         }
+
+        private void btnRegistrarClick(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

@@ -28,39 +28,60 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegistrarPeticion));
             this.pb_Encabezado = new System.Windows.Forms.PictureBox();
             this.pnl_Barra = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btn_nocturno = new System.Windows.Forms.Button();
-            this.btn_ayuda = new System.Windows.Forms.Button();
-            this.btn_zoom = new System.Windows.Forms.Button();
-            this.btn_admin = new System.Windows.Forms.Button();
-            this.btn_Inicio = new System.Windows.Forms.Button();
-            this.pnl_Principal = new System.Windows.Forms.Panel();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.gtxt_Correo = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.lblSolicitante = new System.Windows.Forms.Label();
-            this.solicitanteComboBox = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.idiomaButotn = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.nocturnoButton = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.ayudaButton = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.zoomButton = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.adminButton = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.inicioButton = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.btnRegistrar = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.pb_Registrar = new System.Windows.Forms.PictureBox();
+            this.solicitanteComboBox = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.lblSolicitante = new System.Windows.Forms.Label();
+            this.lblCorreo = new System.Windows.Forms.Label();
+            this.txtCorreo = new Guna.UI2.WinForms.Guna2TextBox();
+            this.lblTipoSolicitud = new System.Windows.Forms.Label();
+            this.tipoSolicitudComboBox = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.descripcionTextBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pnl_Principal = new System.Windows.Forms.Panel();
+            this.checkBoxAutorizacionDatos = new System.Windows.Forms.CheckBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.tipoRespuestaComboBox = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.lblMedioRespuesta = new System.Windows.Forms.Label();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.txtConfirmacionCorreo = new Guna.UI2.WinForms.Guna2TextBox();
+            this.lblConfirmacionCorreo = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.lblCondicionEspecial = new System.Windows.Forms.Label();
+            this.condicionEspecialComboBox = new Guna.UI2.WinForms.Guna2ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Encabezado)).BeginInit();
             this.pnl_Barra.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRegistrar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.pnl_Principal.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_Registrar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // pb_Encabezado
             // 
-            this.pb_Encabezado.Image = global::Reto_2.Properties.Resources.Captura_de_pantalla_2025_04_01_103943;
-            this.pb_Encabezado.Location = new System.Drawing.Point(6, 2);
-            this.pb_Encabezado.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pb_Encabezado.Image = ((System.Drawing.Image)(resources.GetObject("pb_Encabezado.Image")));
+            this.pb_Encabezado.Location = new System.Drawing.Point(3, 1);
             this.pb_Encabezado.Name = "pb_Encabezado";
-            this.pb_Encabezado.Size = new System.Drawing.Size(2288, 271);
+            this.pb_Encabezado.Size = new System.Drawing.Size(1143, 189);
             this.pb_Encabezado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_Encabezado.TabIndex = 2;
             this.pb_Encabezado.TabStop = false;
@@ -68,207 +89,141 @@
             // pnl_Barra
             // 
             this.pnl_Barra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
-            this.pnl_Barra.Controls.Add(this.button1);
-            this.pnl_Barra.Controls.Add(this.btn_nocturno);
-            this.pnl_Barra.Controls.Add(this.btn_ayuda);
-            this.pnl_Barra.Controls.Add(this.btn_zoom);
-            this.pnl_Barra.Controls.Add(this.btn_admin);
-            this.pnl_Barra.Controls.Add(this.btn_Inicio);
-            this.pnl_Barra.Location = new System.Drawing.Point(6, 265);
-            this.pnl_Barra.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pnl_Barra.Controls.Add(this.idiomaButotn);
+            this.pnl_Barra.Controls.Add(this.nocturnoButton);
+            this.pnl_Barra.Controls.Add(this.ayudaButton);
+            this.pnl_Barra.Controls.Add(this.zoomButton);
+            this.pnl_Barra.Controls.Add(this.adminButton);
+            this.pnl_Barra.Controls.Add(this.inicioButton);
+            this.pnl_Barra.Location = new System.Drawing.Point(3, 188);
             this.pnl_Barra.Name = "pnl_Barra";
-            this.pnl_Barra.Size = new System.Drawing.Size(2288, 112);
+            this.pnl_Barra.Size = new System.Drawing.Size(1144, 58);
             this.pnl_Barra.TabIndex = 4;
             // 
-            // button1
+            // idiomaButotn
             // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Image = global::Reto_2.Properties.Resources.idioma;
-            this.button1.Location = new System.Drawing.Point(1926, 15);
-            this.button1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(86, 87);
-            this.button1.TabIndex = 5;
-            this.button1.UseVisualStyleBackColor = true;
+            this.idiomaButotn.BackColor = System.Drawing.Color.Transparent;
+            this.idiomaButotn.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.idiomaButotn.HoverState.ImageSize = new System.Drawing.Size(35, 35);
+            this.idiomaButotn.Image = ((System.Drawing.Image)(resources.GetObject("idiomaButotn.Image")));
+            this.idiomaButotn.ImageOffset = new System.Drawing.Point(0, 0);
+            this.idiomaButotn.ImageRotate = 0F;
+            this.idiomaButotn.ImageSize = new System.Drawing.Size(35, 35);
+            this.idiomaButotn.IndicateFocus = true;
+            this.idiomaButotn.Location = new System.Drawing.Point(972, 10);
+            this.idiomaButotn.Name = "idiomaButotn";
+            this.idiomaButotn.PressedState.ImageSize = new System.Drawing.Size(35, 35);
+            this.idiomaButotn.Size = new System.Drawing.Size(35, 35);
+            this.idiomaButotn.TabIndex = 11;
+            this.idiomaButotn.UseTransparentBackground = true;
             // 
-            // btn_nocturno
+            // nocturnoButton
             // 
-            this.btn_nocturno.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_nocturno.Image = global::Reto_2.Properties.Resources.nocturno;
-            this.btn_nocturno.Location = new System.Drawing.Point(1810, 15);
-            this.btn_nocturno.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.btn_nocturno.Name = "btn_nocturno";
-            this.btn_nocturno.Size = new System.Drawing.Size(86, 87);
-            this.btn_nocturno.TabIndex = 4;
-            this.btn_nocturno.UseVisualStyleBackColor = true;
+            this.nocturnoButton.BackColor = System.Drawing.Color.Transparent;
+            this.nocturnoButton.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.nocturnoButton.HoverState.ImageSize = new System.Drawing.Size(35, 35);
+            this.nocturnoButton.Image = ((System.Drawing.Image)(resources.GetObject("nocturnoButton.Image")));
+            this.nocturnoButton.ImageOffset = new System.Drawing.Point(0, 0);
+            this.nocturnoButton.ImageRotate = 0F;
+            this.nocturnoButton.ImageSize = new System.Drawing.Size(35, 35);
+            this.nocturnoButton.IndicateFocus = true;
+            this.nocturnoButton.Location = new System.Drawing.Point(912, 10);
+            this.nocturnoButton.Name = "nocturnoButton";
+            this.nocturnoButton.PressedState.ImageSize = new System.Drawing.Size(35, 35);
+            this.nocturnoButton.Size = new System.Drawing.Size(35, 35);
+            this.nocturnoButton.TabIndex = 10;
+            this.nocturnoButton.UseTransparentBackground = true;
             // 
-            // btn_ayuda
+            // ayudaButton
             // 
-            this.btn_ayuda.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_ayuda.Image = global::Reto_2.Properties.Resources.ayuda;
-            this.btn_ayuda.Location = new System.Drawing.Point(1690, 15);
-            this.btn_ayuda.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.btn_ayuda.Name = "btn_ayuda";
-            this.btn_ayuda.Size = new System.Drawing.Size(86, 87);
-            this.btn_ayuda.TabIndex = 3;
-            this.btn_ayuda.UseVisualStyleBackColor = true;
+            this.ayudaButton.BackColor = System.Drawing.Color.Transparent;
+            this.ayudaButton.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.ayudaButton.HoverState.ImageSize = new System.Drawing.Size(35, 35);
+            this.ayudaButton.Image = ((System.Drawing.Image)(resources.GetObject("ayudaButton.Image")));
+            this.ayudaButton.ImageOffset = new System.Drawing.Point(0, 0);
+            this.ayudaButton.ImageRotate = 0F;
+            this.ayudaButton.ImageSize = new System.Drawing.Size(35, 35);
+            this.ayudaButton.IndicateFocus = true;
+            this.ayudaButton.Location = new System.Drawing.Point(853, 10);
+            this.ayudaButton.Name = "ayudaButton";
+            this.ayudaButton.PressedState.ImageSize = new System.Drawing.Size(35, 35);
+            this.ayudaButton.Size = new System.Drawing.Size(35, 35);
+            this.ayudaButton.TabIndex = 9;
+            this.ayudaButton.UseTransparentBackground = true;
             // 
-            // btn_zoom
+            // zoomButton
             // 
-            this.btn_zoom.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_zoom.Image = global::Reto_2.Properties.Resources.zoom;
-            this.btn_zoom.Location = new System.Drawing.Point(1572, 15);
-            this.btn_zoom.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.btn_zoom.Name = "btn_zoom";
-            this.btn_zoom.Size = new System.Drawing.Size(86, 87);
-            this.btn_zoom.TabIndex = 2;
-            this.btn_zoom.UseVisualStyleBackColor = true;
+            this.zoomButton.BackColor = System.Drawing.Color.Transparent;
+            this.zoomButton.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.zoomButton.HoverState.ImageSize = new System.Drawing.Size(35, 35);
+            this.zoomButton.Image = ((System.Drawing.Image)(resources.GetObject("zoomButton.Image")));
+            this.zoomButton.ImageOffset = new System.Drawing.Point(0, 0);
+            this.zoomButton.ImageRotate = 0F;
+            this.zoomButton.ImageSize = new System.Drawing.Size(35, 35);
+            this.zoomButton.IndicateFocus = true;
+            this.zoomButton.Location = new System.Drawing.Point(794, 10);
+            this.zoomButton.Name = "zoomButton";
+            this.zoomButton.PressedState.ImageSize = new System.Drawing.Size(35, 35);
+            this.zoomButton.Size = new System.Drawing.Size(35, 35);
+            this.zoomButton.TabIndex = 8;
+            this.zoomButton.UseTransparentBackground = true;
             // 
-            // btn_admin
+            // adminButton
             // 
-            this.btn_admin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_admin.Image = global::Reto_2.Properties.Resources.configuracion;
-            this.btn_admin.Location = new System.Drawing.Point(1456, 15);
-            this.btn_admin.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.btn_admin.Name = "btn_admin";
-            this.btn_admin.Size = new System.Drawing.Size(86, 87);
-            this.btn_admin.TabIndex = 1;
-            this.btn_admin.UseVisualStyleBackColor = true;
+            this.adminButton.BackColor = System.Drawing.Color.Transparent;
+            this.adminButton.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.adminButton.HoverState.ImageSize = new System.Drawing.Size(35, 35);
+            this.adminButton.Image = ((System.Drawing.Image)(resources.GetObject("adminButton.Image")));
+            this.adminButton.ImageOffset = new System.Drawing.Point(0, 0);
+            this.adminButton.ImageRotate = 0F;
+            this.adminButton.ImageSize = new System.Drawing.Size(35, 35);
+            this.adminButton.IndicateFocus = true;
+            this.adminButton.Location = new System.Drawing.Point(737, 10);
+            this.adminButton.Name = "adminButton";
+            this.adminButton.PressedState.ImageSize = new System.Drawing.Size(35, 35);
+            this.adminButton.Size = new System.Drawing.Size(35, 35);
+            this.adminButton.TabIndex = 7;
+            this.adminButton.UseTransparentBackground = true;
             // 
-            // btn_Inicio
+            // inicioButton
             // 
-            this.btn_Inicio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
-            this.btn_Inicio.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Inicio.ForeColor = System.Drawing.Color.White;
-            this.btn_Inicio.Image = global::Reto_2.Properties.Resources.Captura_de_pantalla_2025_04_01_104725;
-            this.btn_Inicio.Location = new System.Drawing.Point(358, 19);
-            this.btn_Inicio.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.btn_Inicio.Name = "btn_Inicio";
-            this.btn_Inicio.Size = new System.Drawing.Size(78, 79);
-            this.btn_Inicio.TabIndex = 0;
-            this.btn_Inicio.UseVisualStyleBackColor = false;
-            this.btn_Inicio.Click += new System.EventHandler(this.btn_Inicio_Click);
+            this.inicioButton.BackColor = System.Drawing.Color.Transparent;
+            this.inicioButton.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.inicioButton.HoverState.ImageSize = new System.Drawing.Size(35, 35);
+            this.inicioButton.Image = ((System.Drawing.Image)(resources.GetObject("inicioButton.Image")));
+            this.inicioButton.ImageOffset = new System.Drawing.Point(0, 0);
+            this.inicioButton.ImageRotate = 0F;
+            this.inicioButton.ImageSize = new System.Drawing.Size(35, 35);
+            this.inicioButton.IndicateFocus = true;
+            this.inicioButton.Location = new System.Drawing.Point(184, 10);
+            this.inicioButton.Name = "inicioButton";
+            this.inicioButton.PressedState.ImageSize = new System.Drawing.Size(35, 35);
+            this.inicioButton.Size = new System.Drawing.Size(35, 35);
+            this.inicioButton.TabIndex = 6;
+            this.inicioButton.UseTransparentBackground = true;
+            this.inicioButton.Click += new System.EventHandler(this.inicioButtonClick);
             // 
-            // pnl_Principal
+            // btnRegistrar
             // 
-            this.pnl_Principal.BackColor = System.Drawing.Color.White;
-            this.pnl_Principal.Controls.Add(this.lblCondicionEspecial);
-            this.pnl_Principal.Controls.Add(this.guna2TextBox1);
-            this.pnl_Principal.Controls.Add(this.label5);
-            this.pnl_Principal.Controls.Add(this.guna2ComboBox2);
-            this.pnl_Principal.Controls.Add(this.label4);
-            this.pnl_Principal.Controls.Add(this.gtxt_Correo);
-            this.pnl_Principal.Controls.Add(this.label3);
-            this.pnl_Principal.Controls.Add(this.lblSolicitante);
-            this.pnl_Principal.Controls.Add(this.solicitanteComboBox);
-            this.pnl_Principal.Controls.Add(this.label1);
-            this.pnl_Principal.Controls.Add(this.pb_Registrar);
-            this.pnl_Principal.Location = new System.Drawing.Point(450, 388);
-            this.pnl_Principal.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.pnl_Principal.Name = "pnl_Principal";
-            this.pnl_Principal.Size = new System.Drawing.Size(1452, 985);
-            this.pnl_Principal.TabIndex = 5;
+            this.btnRegistrar.Image = ((System.Drawing.Image)(resources.GetObject("btnRegistrar.Image")));
+            this.btnRegistrar.Location = new System.Drawing.Point(219, 433);
+            this.btnRegistrar.Name = "btnRegistrar";
+            this.btnRegistrar.Size = new System.Drawing.Size(300, 43);
+            this.btnRegistrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnRegistrar.TabIndex = 5;
+            this.btnRegistrar.TabStop = false;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrarClick);
             // 
-            // guna2TextBox1
+            // label1
             // 
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(500, 627);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(12, 12, 12, 12);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PlaceholderText = "Descripción";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(468, 198);
-            this.guna2TextBox1.TabIndex = 16;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(500, 596);
-            this.label5.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(153, 25);
-            this.label5.TabIndex = 15;
-            this.label5.Text = "(*) Descripción";
-            // 
-            // guna2ComboBox2
-            // 
-            this.guna2ComboBox2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox2.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox2.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2ComboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox2.ItemHeight = 30;
-            this.guna2ComboBox2.Items.AddRange(new object[] {
-            "Peticiones",
-            "Quejas",
-            "Reclamos",
-            "Sugerencias",
-            "Felicitaciones",
-            "Denuncias"});
-            this.guna2ComboBox2.Location = new System.Drawing.Point(500, 496);
-            this.guna2ComboBox2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.guna2ComboBox2.Name = "guna2ComboBox2";
-            this.guna2ComboBox2.Size = new System.Drawing.Size(464, 36);
-            this.guna2ComboBox2.TabIndex = 14;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(500, 465);
-            this.label4.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(200, 25);
-            this.label4.TabIndex = 13;
-            this.label4.Text = "(*) Tipo de Solicitud";
-            // 
-            // gtxt_Correo
-            // 
-            this.gtxt_Correo.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.gtxt_Correo.DefaultText = "";
-            this.gtxt_Correo.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.gtxt_Correo.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.gtxt_Correo.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.gtxt_Correo.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.gtxt_Correo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.gtxt_Correo.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gtxt_Correo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.gtxt_Correo.Location = new System.Drawing.Point(500, 362);
-            this.gtxt_Correo.Margin = new System.Windows.Forms.Padding(12, 12, 12, 12);
-            this.gtxt_Correo.Name = "gtxt_Correo";
-            this.gtxt_Correo.PlaceholderText = "Correo Electrónico";
-            this.gtxt_Correo.SelectedText = "";
-            this.gtxt_Correo.Size = new System.Drawing.Size(468, 69);
-            this.gtxt_Correo.TabIndex = 12;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(502, 331);
-            this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(218, 25);
-            this.label3.TabIndex = 11;
-            this.label3.Text = "(*) Correo Electrónico";
-            // 
-            // lblSolicitante
-            // 
-            this.lblSolicitante.AutoSize = true;
-            this.lblSolicitante.Location = new System.Drawing.Point(30, 172);
-            this.lblSolicitante.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.lblSolicitante.Name = "lblSolicitante";
-            this.lblSolicitante.Size = new System.Drawing.Size(218, 25);
-            this.lblSolicitante.TabIndex = 10;
-            this.lblSolicitante.Text = "(*) Tipo de Solicitante";
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label1.Location = new System.Drawing.Point(12, 18);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(711, 49);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Por favor tenga en cuenta que los campos con (*) son obligatorios. Recuerde que s" +
+    "i brinda mayor información facilitara la labor para el proceso de su solicitud.";
             // 
             // solicitanteComboBox
             // 
@@ -287,64 +242,352 @@
             "Niños, Niñas y Adolescentes",
             "Persona Jurídica",
             "Persona Natural"});
-            this.solicitanteComboBox.Location = new System.Drawing.Point(30, 203);
-            this.solicitanteComboBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.solicitanteComboBox.Location = new System.Drawing.Point(79, 90);
             this.solicitanteComboBox.Name = "solicitanteComboBox";
-            this.solicitanteComboBox.Size = new System.Drawing.Size(464, 36);
+            this.solicitanteComboBox.Size = new System.Drawing.Size(234, 36);
             this.solicitanteComboBox.TabIndex = 9;
             // 
-            // label1
+            // lblSolicitante
             // 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label1.Location = new System.Drawing.Point(24, 42);
-            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1422, 94);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Por favor tenga en cuenta que los campos con (*) son obligatorios. Recuerde que s" +
-    "i brinda mayor información facilitara la labor para el proceso de su solicitud.";
+            this.lblSolicitante.AutoSize = true;
+            this.lblSolicitante.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSolicitante.Location = new System.Drawing.Point(79, 73);
+            this.lblSolicitante.Name = "lblSolicitante";
+            this.lblSolicitante.Size = new System.Drawing.Size(116, 13);
+            this.lblSolicitante.TabIndex = 10;
+            this.lblSolicitante.Text = "(*) Tipo de Solicitante";
             // 
-            // pb_Registrar
+            // lblCorreo
             // 
-            this.pb_Registrar.Image = global::Reto_2.Properties.Resources.btn_Registrar;
-            this.pb_Registrar.Location = new System.Drawing.Point(500, 867);
-            this.pb_Registrar.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.pb_Registrar.Name = "pb_Registrar";
-            this.pb_Registrar.Size = new System.Drawing.Size(468, 96);
-            this.pb_Registrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pb_Registrar.TabIndex = 5;
-            this.pb_Registrar.TabStop = false;
-            this.pb_Registrar.Click += new System.EventHandler(this.pb_Registrar_Click);
+            this.lblCorreo.AutoSize = true;
+            this.lblCorreo.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCorreo.Location = new System.Drawing.Point(80, 149);
+            this.lblCorreo.Name = "lblCorreo";
+            this.lblCorreo.Size = new System.Drawing.Size(116, 13);
+            this.lblCorreo.TabIndex = 11;
+            this.lblCorreo.Text = "(*) Correo Electrónico";
+            // 
+            // txtCorreo
+            // 
+            this.txtCorreo.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtCorreo.DefaultText = "";
+            this.txtCorreo.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtCorreo.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtCorreo.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtCorreo.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtCorreo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtCorreo.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtCorreo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtCorreo.Location = new System.Drawing.Point(79, 165);
+            this.txtCorreo.Margin = new System.Windows.Forms.Padding(6);
+            this.txtCorreo.Name = "txtCorreo";
+            this.txtCorreo.PlaceholderText = "Correo Electrónico";
+            this.txtCorreo.SelectedText = "";
+            this.txtCorreo.Size = new System.Drawing.Size(234, 36);
+            this.txtCorreo.TabIndex = 12;
+            // 
+            // lblTipoSolicitud
+            // 
+            this.lblTipoSolicitud.AutoSize = true;
+            this.lblTipoSolicitud.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTipoSolicitud.Location = new System.Drawing.Point(79, 226);
+            this.lblTipoSolicitud.Name = "lblTipoSolicitud";
+            this.lblTipoSolicitud.Size = new System.Drawing.Size(107, 13);
+            this.lblTipoSolicitud.TabIndex = 13;
+            this.lblTipoSolicitud.Text = "(*) Tipo de Solicitud";
+            // 
+            // tipoSolicitudComboBox
+            // 
+            this.tipoSolicitudComboBox.BackColor = System.Drawing.Color.Transparent;
+            this.tipoSolicitudComboBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.tipoSolicitudComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.tipoSolicitudComboBox.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tipoSolicitudComboBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tipoSolicitudComboBox.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.tipoSolicitudComboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.tipoSolicitudComboBox.ItemHeight = 30;
+            this.tipoSolicitudComboBox.Items.AddRange(new object[] {
+            "Peticiones",
+            "Quejas",
+            "Reclamos",
+            "Sugerencias",
+            "Felicitaciones",
+            "Denuncias"});
+            this.tipoSolicitudComboBox.Location = new System.Drawing.Point(79, 242);
+            this.tipoSolicitudComboBox.Name = "tipoSolicitudComboBox";
+            this.tipoSolicitudComboBox.Size = new System.Drawing.Size(234, 36);
+            this.tipoSolicitudComboBox.TabIndex = 14;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(80, 298);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(81, 13);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "(*) Descripción";
+            // 
+            // descripcionTextBox
+            // 
+            this.descripcionTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.descripcionTextBox.DefaultText = "";
+            this.descripcionTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.descripcionTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.descripcionTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.descripcionTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.descripcionTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.descripcionTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.descripcionTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.descripcionTextBox.Location = new System.Drawing.Point(79, 316);
+            this.descripcionTextBox.Margin = new System.Windows.Forms.Padding(6);
+            this.descripcionTextBox.Name = "descripcionTextBox";
+            this.descripcionTextBox.PlaceholderText = "Ingrese aqui su descripción";
+            this.descripcionTextBox.SelectedText = "";
+            this.descripcionTextBox.Size = new System.Drawing.Size(234, 103);
+            this.descripcionTextBox.TabIndex = 16;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(44, 91);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(35, 35);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 17;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(44, 166);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(35, 35);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 18;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(44, 243);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(35, 35);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 19;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(44, 316);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(35, 35);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 20;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pnl_Principal
+            // 
+            this.pnl_Principal.BackColor = System.Drawing.Color.White;
+            this.pnl_Principal.Controls.Add(this.checkBoxAutorizacionDatos);
+            this.pnl_Principal.Controls.Add(this.label4);
+            this.pnl_Principal.Controls.Add(this.pictureBox7);
+            this.pnl_Principal.Controls.Add(this.tipoRespuestaComboBox);
+            this.pnl_Principal.Controls.Add(this.lblMedioRespuesta);
+            this.pnl_Principal.Controls.Add(this.pictureBox6);
+            this.pnl_Principal.Controls.Add(this.txtConfirmacionCorreo);
+            this.pnl_Principal.Controls.Add(this.lblConfirmacionCorreo);
+            this.pnl_Principal.Controls.Add(this.pictureBox5);
+            this.pnl_Principal.Controls.Add(this.lblCondicionEspecial);
+            this.pnl_Principal.Controls.Add(this.condicionEspecialComboBox);
+            this.pnl_Principal.Controls.Add(this.pictureBox4);
+            this.pnl_Principal.Controls.Add(this.pictureBox3);
+            this.pnl_Principal.Controls.Add(this.pictureBox2);
+            this.pnl_Principal.Controls.Add(this.pictureBox1);
+            this.pnl_Principal.Controls.Add(this.descripcionTextBox);
+            this.pnl_Principal.Controls.Add(this.label5);
+            this.pnl_Principal.Controls.Add(this.tipoSolicitudComboBox);
+            this.pnl_Principal.Controls.Add(this.lblTipoSolicitud);
+            this.pnl_Principal.Controls.Add(this.txtCorreo);
+            this.pnl_Principal.Controls.Add(this.lblCorreo);
+            this.pnl_Principal.Controls.Add(this.lblSolicitante);
+            this.pnl_Principal.Controls.Add(this.solicitanteComboBox);
+            this.pnl_Principal.Controls.Add(this.label1);
+            this.pnl_Principal.Controls.Add(this.btnRegistrar);
+            this.pnl_Principal.Location = new System.Drawing.Point(225, 267);
+            this.pnl_Principal.Name = "pnl_Principal";
+            this.pnl_Principal.Size = new System.Drawing.Size(726, 522);
+            this.pnl_Principal.TabIndex = 5;
+            // 
+            // checkBoxAutorizacionDatos
+            // 
+            this.checkBoxAutorizacionDatos.AutoSize = true;
+            this.checkBoxAutorizacionDatos.Location = new System.Drawing.Point(354, 316);
+            this.checkBoxAutorizacionDatos.Name = "checkBoxAutorizacionDatos";
+            this.checkBoxAutorizacionDatos.Size = new System.Drawing.Size(329, 69);
+            this.checkBoxAutorizacionDatos.TabIndex = 31;
+            this.checkBoxAutorizacionDatos.Text = resources.GetString("checkBoxAutorizacionDatos.Text");
+            this.checkBoxAutorizacionDatos.UseVisualStyleBackColor = true;
+            this.checkBoxAutorizacionDatos.CheckedChanged += new System.EventHandler(this.checkBoxAutorizacionDatos_CheckedChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(390, 298);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(193, 13);
+            this.label4.TabIndex = 30;
+            this.label4.Text = "(*) Autorización de datos personales";
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(355, 243);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(35, 35);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 29;
+            this.pictureBox7.TabStop = false;
+            // 
+            // tipoRespuestaComboBox
+            // 
+            this.tipoRespuestaComboBox.BackColor = System.Drawing.Color.Transparent;
+            this.tipoRespuestaComboBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.tipoRespuestaComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.tipoRespuestaComboBox.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tipoRespuestaComboBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tipoRespuestaComboBox.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.tipoRespuestaComboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.tipoRespuestaComboBox.ItemHeight = 30;
+            this.tipoRespuestaComboBox.Items.AddRange(new object[] {
+            "Peticiones",
+            "Quejas",
+            "Reclamos",
+            "Sugerencias",
+            "Felicitaciones",
+            "Denuncias"});
+            this.tipoRespuestaComboBox.Location = new System.Drawing.Point(390, 242);
+            this.tipoRespuestaComboBox.Name = "tipoRespuestaComboBox";
+            this.tipoRespuestaComboBox.Size = new System.Drawing.Size(234, 36);
+            this.tipoRespuestaComboBox.TabIndex = 28;
+            // 
+            // lblMedioRespuesta
+            // 
+            this.lblMedioRespuesta.AutoSize = true;
+            this.lblMedioRespuesta.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMedioRespuesta.Location = new System.Drawing.Point(390, 226);
+            this.lblMedioRespuesta.Name = "lblMedioRespuesta";
+            this.lblMedioRespuesta.Size = new System.Drawing.Size(126, 13);
+            this.lblMedioRespuesta.TabIndex = 27;
+            this.lblMedioRespuesta.Text = "(*) Medio de Respuesta";
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(355, 166);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(35, 35);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 26;
+            this.pictureBox6.TabStop = false;
+            // 
+            // txtConfirmacionCorreo
+            // 
+            this.txtConfirmacionCorreo.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtConfirmacionCorreo.DefaultText = "";
+            this.txtConfirmacionCorreo.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtConfirmacionCorreo.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtConfirmacionCorreo.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtConfirmacionCorreo.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtConfirmacionCorreo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtConfirmacionCorreo.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtConfirmacionCorreo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtConfirmacionCorreo.Location = new System.Drawing.Point(390, 165);
+            this.txtConfirmacionCorreo.Margin = new System.Windows.Forms.Padding(6);
+            this.txtConfirmacionCorreo.Name = "txtConfirmacionCorreo";
+            this.txtConfirmacionCorreo.PlaceholderText = "Correo Electrónico";
+            this.txtConfirmacionCorreo.SelectedText = "";
+            this.txtConfirmacionCorreo.Size = new System.Drawing.Size(234, 36);
+            this.txtConfirmacionCorreo.TabIndex = 25;
+            // 
+            // lblConfirmacionCorreo
+            // 
+            this.lblConfirmacionCorreo.AutoSize = true;
+            this.lblConfirmacionCorreo.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConfirmacionCorreo.Location = new System.Drawing.Point(391, 149);
+            this.lblConfirmacionCorreo.Name = "lblConfirmacionCorreo";
+            this.lblConfirmacionCorreo.Size = new System.Drawing.Size(204, 13);
+            this.lblConfirmacionCorreo.TabIndex = 24;
+            this.lblConfirmacionCorreo.Text = "(*) Confirmacion de Correo Electrónico";
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(355, 91);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(35, 35);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 23;
+            this.pictureBox5.TabStop = false;
             // 
             // lblCondicionEspecial
             // 
             this.lblCondicionEspecial.AutoSize = true;
-            this.lblCondicionEspecial.Location = new System.Drawing.Point(827, 156);
-            this.lblCondicionEspecial.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblCondicionEspecial.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCondicionEspecial.Location = new System.Drawing.Point(390, 73);
             this.lblCondicionEspecial.Name = "lblCondicionEspecial";
-            this.lblCondicionEspecial.Size = new System.Drawing.Size(491, 25);
-            this.lblCondicionEspecial.TabIndex = 17;
+            this.lblCondicionEspecial.Size = new System.Drawing.Size(254, 13);
+            this.lblCondicionEspecial.TabIndex = 22;
             this.lblCondicionEspecial.Text = "(*)¿Te Encuentras en Alguna Condición Especial?";
+            // 
+            // condicionEspecialComboBox
+            // 
+            this.condicionEspecialComboBox.BackColor = System.Drawing.Color.Transparent;
+            this.condicionEspecialComboBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.condicionEspecialComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.condicionEspecialComboBox.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.condicionEspecialComboBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.condicionEspecialComboBox.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.condicionEspecialComboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.condicionEspecialComboBox.ItemHeight = 30;
+            this.condicionEspecialComboBox.Items.AddRange(new object[] {
+            "Seleccione tipo de solicitante",
+            "Anónimo",
+            "Apoderado",
+            "Niños, Niñas y Adolescentes",
+            "Persona Jurídica",
+            "Persona Natural"});
+            this.condicionEspecialComboBox.Location = new System.Drawing.Point(390, 90);
+            this.condicionEspecialComboBox.Name = "condicionEspecialComboBox";
+            this.condicionEspecialComboBox.Size = new System.Drawing.Size(234, 36);
+            this.condicionEspecialComboBox.TabIndex = 21;
             // 
             // RegistrarPeticion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(2296, 1375);
+            this.ClientSize = new System.Drawing.Size(1184, 577);
             this.Controls.Add(this.pnl_Principal);
             this.Controls.Add(this.pnl_Barra);
             this.Controls.Add(this.pb_Encabezado);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "RegistrarPeticion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RegistrarPeticion";
             ((System.ComponentModel.ISupportInitialize)(this.pb_Encabezado)).EndInit();
             this.pnl_Barra.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnRegistrar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.pnl_Principal.ResumeLayout(false);
             this.pnl_Principal.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_Registrar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -353,23 +596,37 @@
 
         private System.Windows.Forms.PictureBox pb_Encabezado;
         private System.Windows.Forms.Panel pnl_Barra;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button btn_nocturno;
-        private System.Windows.Forms.Button btn_ayuda;
-        private System.Windows.Forms.Button btn_zoom;
-        private System.Windows.Forms.Button btn_admin;
-        private System.Windows.Forms.Button btn_Inicio;
-        private System.Windows.Forms.Panel pnl_Principal;
-        private System.Windows.Forms.PictureBox pb_Registrar;
+        private Guna.UI2.WinForms.Guna2ImageButton inicioButton;
+        private Guna.UI2.WinForms.Guna2ImageButton adminButton;
+        private Guna.UI2.WinForms.Guna2ImageButton idiomaButotn;
+        private Guna.UI2.WinForms.Guna2ImageButton nocturnoButton;
+        private Guna.UI2.WinForms.Guna2ImageButton ayudaButton;
+        private Guna.UI2.WinForms.Guna2ImageButton zoomButton;
+        private System.Windows.Forms.PictureBox btnRegistrar;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lblSolicitante;
         private Guna.UI2.WinForms.Guna2ComboBox solicitanteComboBox;
-        private System.Windows.Forms.Label label3;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox2;
-        private System.Windows.Forms.Label label4;
-        private Guna.UI2.WinForms.Guna2TextBox gtxt_Correo;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private System.Windows.Forms.Label lblSolicitante;
+        private System.Windows.Forms.Label lblCorreo;
+        private Guna.UI2.WinForms.Guna2TextBox txtCorreo;
+        private System.Windows.Forms.Label lblTipoSolicitud;
+        private Guna.UI2.WinForms.Guna2ComboBox tipoSolicitudComboBox;
         private System.Windows.Forms.Label label5;
+        private Guna.UI2.WinForms.Guna2TextBox descripcionTextBox;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Panel pnl_Principal;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private Guna.UI2.WinForms.Guna2ComboBox tipoRespuestaComboBox;
+        private System.Windows.Forms.Label lblMedioRespuesta;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private Guna.UI2.WinForms.Guna2TextBox txtConfirmacionCorreo;
+        private System.Windows.Forms.Label lblConfirmacionCorreo;
+        private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Label lblCondicionEspecial;
+        private Guna.UI2.WinForms.Guna2ComboBox condicionEspecialComboBox;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.CheckBox checkBoxAutorizacionDatos;
     }
 }

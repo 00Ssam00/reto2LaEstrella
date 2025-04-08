@@ -17,7 +17,7 @@ namespace Reto_2
             InitializeComponent();
         }
 
-        private void Llbl_Clickaqui_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void txtClickAquiLinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Pop_Up pop_Up = new Pop_Up();
             pop_Up.ShowDialog();

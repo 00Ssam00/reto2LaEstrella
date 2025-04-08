@@ -17,10 +17,14 @@ namespace Reto_2
             InitializeComponent();
         }
 
-        private void gbtn_cancelar_Click(object sender, EventArgs e)
+        private void btnCancelarClick(object sender, EventArgs e)
         {
             this.Close();
-            
+        }
+
+        private void btnEnviarClick(object sender, EventArgs e)
+        {
+
         }
     }
 }
