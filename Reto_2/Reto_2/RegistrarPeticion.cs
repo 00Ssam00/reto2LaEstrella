@@ -58,6 +58,7 @@ namespace Reto_2
         public RegistrarPeticion()
         {
             InitializeComponent();
+            condicionEspecialComboBox.Text = "Seleccionar";
         }
 
         private void inicioButtonClick(object sender, EventArgs e)
