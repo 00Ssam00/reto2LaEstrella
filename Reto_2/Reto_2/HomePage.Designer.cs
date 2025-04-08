@@ -229,11 +229,11 @@
             // lbl_Encabezado
             // 
             this.lbl_Encabezado.AutoSize = true;
-            this.lbl_Encabezado.Font = new System.Drawing.Font("Ubuntu Mono Medium", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Encabezado.Font = new System.Drawing.Font("Segoe UI Black", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Encabezado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(75)))), ((int)(((byte)(82)))));
             this.lbl_Encabezado.Location = new System.Drawing.Point(76, 20);
             this.lbl_Encabezado.Name = "lbl_Encabezado";
-            this.lbl_Encabezado.Size = new System.Drawing.Size(647, 40);
+            this.lbl_Encabezado.Size = new System.Drawing.Size(615, 45);
             this.lbl_Encabezado.TabIndex = 0;
             this.lbl_Encabezado.Text = "Apreciado ciudadano tenga en cuenta";
             // 
@@ -531,11 +531,11 @@
             // lblEstadosSolicitud
             // 
             this.lblEstadosSolicitud.AutoSize = true;
-            this.lblEstadosSolicitud.Font = new System.Drawing.Font("Ubuntu Mono Medium", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEstadosSolicitud.Font = new System.Drawing.Font("Segoe UI Black", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEstadosSolicitud.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(75)))), ((int)(((byte)(82)))));
-            this.lblEstadosSolicitud.Location = new System.Drawing.Point(76, 1427);
+            this.lblEstadosSolicitud.Location = new System.Drawing.Point(112, 1429);
             this.lblEstadosSolicitud.Name = "lblEstadosSolicitud";
-            this.lblEstadosSolicitud.Size = new System.Drawing.Size(683, 40);
+            this.lblEstadosSolicitud.Size = new System.Drawing.Size(593, 45);
             this.lblEstadosSolicitud.TabIndex = 49;
             this.lblEstadosSolicitud.Text = "Estados por los que pasa tu solicitud\r\n";
             // 
@@ -580,6 +580,7 @@
             // 
             // lbl_Denuncia
             // 
+            this.lbl_Denuncia.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lbl_Denuncia.AutoSize = true;
             this.lbl_Denuncia.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_Denuncia.Font = new System.Drawing.Font("Segoe UI Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -590,6 +591,7 @@
             this.lbl_Denuncia.TabIndex = 2;
             this.lbl_Denuncia.TabStop = true;
             this.lbl_Denuncia.Text = "Denuncia:";
+            this.lbl_Denuncia.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lbl_Denuncia.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lbl_Denuncia_LinkClicked);
             // 
             // btnHideDenuncia

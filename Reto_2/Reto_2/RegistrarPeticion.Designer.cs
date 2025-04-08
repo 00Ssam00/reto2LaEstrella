@@ -46,7 +46,7 @@
             this.lblTipoSolicitud = new System.Windows.Forms.Label();
             this.tipoSolicitudComboBox = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.descripcionTextBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtDescripcion = new Guna.UI2.WinForms.Guna2TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -55,7 +55,7 @@
             this.checkBoxAutorizacionDatos = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.tipoRespuestaComboBox = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.medioRespuestaComboBox = new Guna.UI2.WinForms.Guna2ComboBox();
             this.lblMedioRespuesta = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.txtConfirmacionCorreo = new Guna.UI2.WinForms.Guna2TextBox();
@@ -253,7 +253,7 @@
             this.lblSolicitante.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSolicitante.Location = new System.Drawing.Point(79, 73);
             this.lblSolicitante.Name = "lblSolicitante";
-            this.lblSolicitante.Size = new System.Drawing.Size(116, 13);
+            this.lblSolicitante.Size = new System.Drawing.Size(117, 13);
             this.lblSolicitante.TabIndex = 10;
             this.lblSolicitante.Text = "(*) Tipo de Solicitante";
             // 
@@ -292,7 +292,7 @@
             this.lblTipoSolicitud.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTipoSolicitud.Location = new System.Drawing.Point(79, 226);
             this.lblTipoSolicitud.Name = "lblTipoSolicitud";
-            this.lblTipoSolicitud.Size = new System.Drawing.Size(107, 13);
+            this.lblTipoSolicitud.Size = new System.Drawing.Size(108, 13);
             this.lblTipoSolicitud.TabIndex = 13;
             this.lblTipoSolicitud.Text = "(*) Tipo de Solicitud";
             // 
@@ -328,24 +328,26 @@
             this.label5.TabIndex = 15;
             this.label5.Text = "(*) Descripción";
             // 
-            // descripcionTextBox
+            // txtDescripcion
             // 
-            this.descripcionTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.descripcionTextBox.DefaultText = "";
-            this.descripcionTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.descripcionTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.descripcionTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.descripcionTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.descripcionTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.descripcionTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.descripcionTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.descripcionTextBox.Location = new System.Drawing.Point(79, 316);
-            this.descripcionTextBox.Margin = new System.Windows.Forms.Padding(6);
-            this.descripcionTextBox.Name = "descripcionTextBox";
-            this.descripcionTextBox.PlaceholderText = "Ingrese aqui su descripción";
-            this.descripcionTextBox.SelectedText = "";
-            this.descripcionTextBox.Size = new System.Drawing.Size(234, 103);
-            this.descripcionTextBox.TabIndex = 16;
+            this.txtDescripcion.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtDescripcion.DefaultText = "";
+            this.txtDescripcion.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtDescripcion.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtDescripcion.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtDescripcion.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtDescripcion.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtDescripcion.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtDescripcion.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtDescripcion.Location = new System.Drawing.Point(79, 316);
+            this.txtDescripcion.Margin = new System.Windows.Forms.Padding(6);
+            this.txtDescripcion.Multiline = true;
+            this.txtDescripcion.Name = "txtDescripcion";
+            this.txtDescripcion.PlaceholderText = "Ingrese aqui su descripción";
+            this.txtDescripcion.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtDescripcion.SelectedText = "";
+            this.txtDescripcion.Size = new System.Drawing.Size(234, 103);
+            this.txtDescripcion.TabIndex = 16;
             // 
             // pictureBox1
             // 
@@ -393,7 +395,7 @@
             this.pnl_Principal.Controls.Add(this.checkBoxAutorizacionDatos);
             this.pnl_Principal.Controls.Add(this.label4);
             this.pnl_Principal.Controls.Add(this.pictureBox7);
-            this.pnl_Principal.Controls.Add(this.tipoRespuestaComboBox);
+            this.pnl_Principal.Controls.Add(this.medioRespuestaComboBox);
             this.pnl_Principal.Controls.Add(this.lblMedioRespuesta);
             this.pnl_Principal.Controls.Add(this.pictureBox6);
             this.pnl_Principal.Controls.Add(this.txtConfirmacionCorreo);
@@ -405,7 +407,7 @@
             this.pnl_Principal.Controls.Add(this.pictureBox3);
             this.pnl_Principal.Controls.Add(this.pictureBox2);
             this.pnl_Principal.Controls.Add(this.pictureBox1);
-            this.pnl_Principal.Controls.Add(this.descripcionTextBox);
+            this.pnl_Principal.Controls.Add(this.txtDescripcion);
             this.pnl_Principal.Controls.Add(this.label5);
             this.pnl_Principal.Controls.Add(this.tipoSolicitudComboBox);
             this.pnl_Principal.Controls.Add(this.lblTipoSolicitud);
@@ -451,27 +453,27 @@
             this.pictureBox7.TabIndex = 29;
             this.pictureBox7.TabStop = false;
             // 
-            // tipoRespuestaComboBox
+            // medioRespuestaComboBox
             // 
-            this.tipoRespuestaComboBox.BackColor = System.Drawing.Color.Transparent;
-            this.tipoRespuestaComboBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.tipoRespuestaComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.tipoRespuestaComboBox.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tipoRespuestaComboBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tipoRespuestaComboBox.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.tipoRespuestaComboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.tipoRespuestaComboBox.ItemHeight = 30;
-            this.tipoRespuestaComboBox.Items.AddRange(new object[] {
+            this.medioRespuestaComboBox.BackColor = System.Drawing.Color.Transparent;
+            this.medioRespuestaComboBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.medioRespuestaComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.medioRespuestaComboBox.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.medioRespuestaComboBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.medioRespuestaComboBox.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.medioRespuestaComboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.medioRespuestaComboBox.ItemHeight = 30;
+            this.medioRespuestaComboBox.Items.AddRange(new object[] {
             "Peticiones",
             "Quejas",
             "Reclamos",
             "Sugerencias",
             "Felicitaciones",
             "Denuncias"});
-            this.tipoRespuestaComboBox.Location = new System.Drawing.Point(390, 242);
-            this.tipoRespuestaComboBox.Name = "tipoRespuestaComboBox";
-            this.tipoRespuestaComboBox.Size = new System.Drawing.Size(234, 36);
-            this.tipoRespuestaComboBox.TabIndex = 28;
+            this.medioRespuestaComboBox.Location = new System.Drawing.Point(390, 242);
+            this.medioRespuestaComboBox.Name = "medioRespuestaComboBox";
+            this.medioRespuestaComboBox.Size = new System.Drawing.Size(234, 36);
+            this.medioRespuestaComboBox.TabIndex = 28;
             // 
             // lblMedioRespuesta
             // 
@@ -538,7 +540,7 @@
             this.lblCondicionEspecial.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCondicionEspecial.Location = new System.Drawing.Point(390, 73);
             this.lblCondicionEspecial.Name = "lblCondicionEspecial";
-            this.lblCondicionEspecial.Size = new System.Drawing.Size(254, 13);
+            this.lblCondicionEspecial.Size = new System.Drawing.Size(255, 13);
             this.lblCondicionEspecial.TabIndex = 22;
             this.lblCondicionEspecial.Text = "(*)¿Te Encuentras en Alguna Condición Especial?";
             // 
@@ -611,14 +613,14 @@
         private System.Windows.Forms.Label lblTipoSolicitud;
         private Guna.UI2.WinForms.Guna2ComboBox tipoSolicitudComboBox;
         private System.Windows.Forms.Label label5;
-        private Guna.UI2.WinForms.Guna2TextBox descripcionTextBox;
+        private Guna.UI2.WinForms.Guna2TextBox txtDescripcion;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Panel pnl_Principal;
         private System.Windows.Forms.PictureBox pictureBox7;
-        private Guna.UI2.WinForms.Guna2ComboBox tipoRespuestaComboBox;
+        private Guna.UI2.WinForms.Guna2ComboBox medioRespuestaComboBox;
         private System.Windows.Forms.Label lblMedioRespuesta;
         private System.Windows.Forms.PictureBox pictureBox6;
         private Guna.UI2.WinForms.Guna2TextBox txtConfirmacionCorreo;
