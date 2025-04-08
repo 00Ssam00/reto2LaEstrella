@@ -14,18 +14,42 @@ namespace Reto_2
     {
 
         private List<Usuario> usuarios = new List<Usuario>();
+        private List<Admin> admins = new List<Admin>();
+
+        public class Admin
+        { 
+            public string Documento;
+            public string Password;
+
+            public Admin(string documento, string password)
+            {
+                Documento = documento;
+                Password = password;
+            }
+        }
 
     public class Usuario
     {
-            public string Nombre {  get; set; }
-            public string Documento {  get; set; }
-            public string Password { get; set; }
+            public string tipoSolicitante {  get; set; }
+            public string condicionEspecial {  get; set; }
+            public string tipoSolicitud { get; set; }
+            public string medioRespuesta { get; set; }
 
-            public Usuario(string nombre, string documento, string password)
+            public string Correo {  get; set; }
+
+            public string correoConfirm {  get; set; }
+
+            public string Descripcion { get; set; }
+
+            public Usuario(string tiposolicitante, string condicionespecial, string tiposolicitud, string mediorespuesta, string correo, string correoconfirm, string descripcion)
             { 
-                Nombre = nombre;
-                Documento = documento;
-                Password = password;
+                tipoSolicitante = tiposolicitante;
+                condicionEspecial = condicionespecial;
+                tipoSolicitud = tiposolicitud;
+                medioRespuesta = mediorespuesta;
+                Correo = correo;
+                correoConfirm = correoconfirm;
+                Descripcion = descripcion;
             }
 
 
@@ -78,7 +102,12 @@ namespace Reto_2
                 }
                 else
                 {
-                    
+                    usuarios.Add(new Usuario(tipoSolicitante, CondicionEspecial, tipoSolicitud, medioRespuesta, correo, correoConfirm, descripcion));
+                    admins.Add(new Admin("1010", "1010"));
+                    Random rnd = new Random();
+                    int Radicado = rnd.Next(1000000, 9999999);
+                    Convert.ToString(Radicado);
+                    MessageBox.Show($"Tu número de radicado es: {Radicado}");
                 }
 
             }

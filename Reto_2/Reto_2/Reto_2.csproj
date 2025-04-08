@@ -61,6 +61,12 @@
     <Compile Include="Pop-Up.Designer.cs">
       <DependentUpon>Pop-Up.cs</DependentUpon>
     </Compile>
+    <Compile Include="Radicado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Radicado.Designer.cs">
+      <DependentUpon>Radicado.cs</DependentUpon>
+    </Compile>
     <Compile Include="RegistrarPeticion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +109,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Radicado.resx">
+      <DependentUpon>Radicado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RegistrarPeticion.resx">
       <DependentUpon>RegistrarPeticion.cs</DependentUpon>
     </EmbeddedResource>
