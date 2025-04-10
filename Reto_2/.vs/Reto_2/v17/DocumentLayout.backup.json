@@ -1,38 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\samue\\OneDrive\\Documentos\\StockIQ\\reto2LaEstrella\\Reto_2\\",
+  "WorkspaceRootPath": "C:\\Users\\Kevin Romero\\Desktop\\Universidad\\Repos\\Herramientas1\\reto2LaEstrella\\Reto_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|C:\\Users\\samue\\OneDrive\\Documentos\\StockIQ\\reto2LaEstrella\\Reto_2\\reto_2\\registrarpeticion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|solutionrelative:reto_2\\registrarpeticion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|c:\\users\\kevin romero\\desktop\\universidad\\repos\\herramientas1\\reto2laestrella\\reto_2\\reto_2\\consultarpqrs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|solutionrelative:reto_2\\consultarpqrs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|C:\\Users\\samue\\OneDrive\\Documentos\\StockIQ\\reto2LaEstrella\\Reto_2\\reto_2\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|solutionrelative:reto_2\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|C:\\Users\\samue\\OneDrive\\Documentos\\StockIQ\\reto2LaEstrella\\Reto_2\\reto_2\\loginadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|C:\\Users\\Kevin Romero\\Desktop\\Universidad\\Repos\\Herramientas1\\reto2LaEstrella\\Reto_2\\reto_2\\loginadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|solutionrelative:reto_2\\loginadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|c:\\users\\samue\\onedrive\\documentos\\stockiq\\reto2laestrella\\reto_2\\reto_2\\ventanaadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|solutionrelative:reto_2\\ventanaadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|C:\\Users\\Kevin Romero\\Desktop\\Universidad\\Repos\\Herramientas1\\reto2LaEstrella\\Reto_2\\reto_2\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|solutionrelative:reto_2\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|C:\\Users\\samue\\OneDrive\\Documentos\\StockIQ\\reto2LaEstrella\\Reto_2\\reto_2\\loginadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|C:\\Users\\Kevin Romero\\Desktop\\Universidad\\Repos\\Herramientas1\\reto2LaEstrella\\Reto_2\\reto_2\\loginadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|solutionrelative:reto_2\\loginadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|C:\\Users\\samue\\OneDrive\\Documentos\\StockIQ\\reto2LaEstrella\\Reto_2\\reto_2\\ventanaadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|C:\\Users\\Kevin Romero\\Desktop\\Universidad\\Repos\\Herramientas1\\reto2LaEstrella\\Reto_2\\reto_2\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|solutionrelative:reto_2\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|C:\\Users\\Kevin Romero\\Desktop\\Universidad\\Repos\\Herramientas1\\reto2LaEstrella\\Reto_2\\reto_2\\ventanaadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|solutionrelative:reto_2\\ventanaadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|C:\\Users\\samue\\OneDrive\\Documentos\\StockIQ\\reto2LaEstrella\\Reto_2\\reto_2\\registrarpeticion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|solutionrelative:reto_2\\registrarpeticion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|c:\\users\\kevin romero\\desktop\\universidad\\repos\\herramientas1\\reto2laestrella\\reto_2\\reto_2\\registrarpeticion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|solutionrelative:reto_2\\registrarpeticion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|C:\\Users\\samue\\OneDrive\\Documentos\\StockIQ\\reto2LaEstrella\\Reto_2\\reto_2\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|solutionrelative:reto_2\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|C:\\Users\\Kevin Romero\\Desktop\\Universidad\\Repos\\Herramientas1\\reto2LaEstrella\\Reto_2\\reto_2\\ventanaadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|solutionrelative:reto_2\\ventanaadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|C:\\Users\\Kevin Romero\\Desktop\\Universidad\\Repos\\Herramientas1\\reto2LaEstrella\\Reto_2\\reto_2\\registrarpeticion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BCEF07D8-3733-48E7-8157-E84354D30010}|Reto_2\\Reto_2.csproj|solutionrelative:reto_2\\registrarpeticion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,23 +46,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 111,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConsultarPqrs.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Kevin Romero\\Desktop\\Universidad\\Repos\\Herramientas1\\reto2LaEstrella\\Reto_2\\Reto_2\\ConsultarPqrs.cs",
+              "RelativeDocumentMoniker": "Reto_2\\ConsultarPqrs.cs",
+              "ToolTip": "C:\\Users\\Kevin Romero\\Desktop\\Universidad\\Repos\\Herramientas1\\reto2LaEstrella\\Reto_2\\Reto_2\\ConsultarPqrs.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Reto_2\\ConsultarPqrs.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T20:36:07.88Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "ventanaAdmin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\samue\\OneDrive\\Documentos\\StockIQ\\reto2LaEstrella\\Reto_2\\Reto_2\\ventanaAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin Romero\\Desktop\\Universidad\\Repos\\Herramientas1\\reto2LaEstrella\\Reto_2\\Reto_2\\ventanaAdmin.cs",
               "RelativeDocumentMoniker": "Reto_2\\ventanaAdmin.cs",
-              "ToolTip": "C:\\Users\\samue\\OneDrive\\Documentos\\StockIQ\\reto2LaEstrella\\Reto_2\\Reto_2\\ventanaAdmin.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Kevin Romero\\Desktop\\Universidad\\Repos\\Herramientas1\\reto2LaEstrella\\Reto_2\\Reto_2\\ventanaAdmin.cs [Dise\u00F1o]",
               "RelativeToolTip": "Reto_2\\ventanaAdmin.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T14:32:31.333Z",
@@ -68,21 +76,22 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "ventanaAdmin.cs",
-              "DocumentMoniker": "C:\\Users\\samue\\OneDrive\\Documentos\\StockIQ\\reto2LaEstrella\\Reto_2\\Reto_2\\ventanaAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin Romero\\Desktop\\Universidad\\Repos\\Herramientas1\\reto2LaEstrella\\Reto_2\\Reto_2\\ventanaAdmin.cs",
               "RelativeDocumentMoniker": "Reto_2\\ventanaAdmin.cs",
-              "ToolTip": "C:\\Users\\samue\\OneDrive\\Documentos\\StockIQ\\reto2LaEstrella\\Reto_2\\Reto_2\\ventanaAdmin.cs",
+              "ToolTip": "C:\\Users\\Kevin Romero\\Desktop\\Universidad\\Repos\\Herramientas1\\reto2LaEstrella\\Reto_2\\Reto_2\\ventanaAdmin.cs",
               "RelativeToolTip": "Reto_2\\ventanaAdmin.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:03:54.311Z"
+              "WhenOpened": "2025-04-10T16:03:54.311Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "LoginAdmin.cs",
-              "DocumentMoniker": "C:\\Users\\samue\\OneDrive\\Documentos\\StockIQ\\reto2LaEstrella\\Reto_2\\Reto_2\\LoginAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin Romero\\Desktop\\Universidad\\Repos\\Herramientas1\\reto2LaEstrella\\Reto_2\\Reto_2\\LoginAdmin.cs",
               "RelativeDocumentMoniker": "Reto_2\\LoginAdmin.cs",
-              "ToolTip": "C:\\Users\\samue\\OneDrive\\Documentos\\StockIQ\\reto2LaEstrella\\Reto_2\\Reto_2\\LoginAdmin.cs",
+              "ToolTip": "C:\\Users\\Kevin Romero\\Desktop\\Universidad\\Repos\\Herramientas1\\reto2LaEstrella\\Reto_2\\Reto_2\\LoginAdmin.cs",
               "RelativeToolTip": "Reto_2\\LoginAdmin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -91,11 +100,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "LoginAdmin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\samue\\OneDrive\\Documentos\\StockIQ\\reto2LaEstrella\\Reto_2\\Reto_2\\LoginAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin Romero\\Desktop\\Universidad\\Repos\\Herramientas1\\reto2LaEstrella\\Reto_2\\Reto_2\\LoginAdmin.cs",
               "RelativeDocumentMoniker": "Reto_2\\LoginAdmin.cs",
-              "ToolTip": "C:\\Users\\samue\\OneDrive\\Documentos\\StockIQ\\reto2LaEstrella\\Reto_2\\Reto_2\\LoginAdmin.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Kevin Romero\\Desktop\\Universidad\\Repos\\Herramientas1\\reto2LaEstrella\\Reto_2\\Reto_2\\LoginAdmin.cs [Dise\u00F1o]",
               "RelativeToolTip": "Reto_2\\LoginAdmin.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T15:59:39.498Z",
@@ -103,11 +112,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "HomePage.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\samue\\OneDrive\\Documentos\\StockIQ\\reto2LaEstrella\\Reto_2\\Reto_2\\HomePage.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin Romero\\Desktop\\Universidad\\Repos\\Herramientas1\\reto2LaEstrella\\Reto_2\\Reto_2\\HomePage.cs",
               "RelativeDocumentMoniker": "Reto_2\\HomePage.cs",
-              "ToolTip": "C:\\Users\\samue\\OneDrive\\Documentos\\StockIQ\\reto2LaEstrella\\Reto_2\\Reto_2\\HomePage.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Kevin Romero\\Desktop\\Universidad\\Repos\\Herramientas1\\reto2LaEstrella\\Reto_2\\Reto_2\\HomePage.cs [Dise\u00F1o]",
               "RelativeToolTip": "Reto_2\\HomePage.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T15:29:44.572Z",
@@ -115,41 +124,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "HomePage.cs",
-              "DocumentMoniker": "C:\\Users\\samue\\OneDrive\\Documentos\\StockIQ\\reto2LaEstrella\\Reto_2\\Reto_2\\HomePage.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin Romero\\Desktop\\Universidad\\Repos\\Herramientas1\\reto2LaEstrella\\Reto_2\\Reto_2\\HomePage.cs",
               "RelativeDocumentMoniker": "Reto_2\\HomePage.cs",
-              "ToolTip": "C:\\Users\\samue\\OneDrive\\Documentos\\StockIQ\\reto2LaEstrella\\Reto_2\\Reto_2\\HomePage.cs",
+              "ToolTip": "C:\\Users\\Kevin Romero\\Desktop\\Universidad\\Repos\\Herramientas1\\reto2LaEstrella\\Reto_2\\Reto_2\\HomePage.cs",
               "RelativeToolTip": "Reto_2\\HomePage.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAlwCMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAADgvzUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T16:03:47.285Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "RegistrarPeticion.cs",
-              "DocumentMoniker": "C:\\Users\\samue\\OneDrive\\Documentos\\StockIQ\\reto2LaEstrella\\Reto_2\\Reto_2\\RegistrarPeticion.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin Romero\\Desktop\\Universidad\\Repos\\Herramientas1\\reto2LaEstrella\\Reto_2\\Reto_2\\RegistrarPeticion.cs",
               "RelativeDocumentMoniker": "Reto_2\\RegistrarPeticion.cs",
-              "ToolTip": "C:\\Users\\samue\\OneDrive\\Documentos\\StockIQ\\reto2LaEstrella\\Reto_2\\Reto_2\\RegistrarPeticion.cs*",
-              "RelativeToolTip": "Reto_2\\RegistrarPeticion.cs*",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAqwHIAAABgAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Kevin Romero\\Desktop\\Universidad\\Repos\\Herramientas1\\reto2LaEstrella\\Reto_2\\Reto_2\\RegistrarPeticion.cs",
+              "RelativeToolTip": "Reto_2\\RegistrarPeticion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-05T20:01:04.297Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "RegistrarPeticion.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\samue\\OneDrive\\Documentos\\StockIQ\\reto2LaEstrella\\Reto_2\\Reto_2\\RegistrarPeticion.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin Romero\\Desktop\\Universidad\\Repos\\Herramientas1\\reto2LaEstrella\\Reto_2\\Reto_2\\RegistrarPeticion.cs",
               "RelativeDocumentMoniker": "Reto_2\\RegistrarPeticion.cs",
-              "ToolTip": "C:\\Users\\samue\\OneDrive\\Documentos\\StockIQ\\reto2LaEstrella\\Reto_2\\Reto_2\\RegistrarPeticion.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "Reto_2\\RegistrarPeticion.cs [Dise\u00F1o]*",
+              "ToolTip": "C:\\Users\\samue\\OneDrive\\Documentos\\StockIQ\\reto2LaEstrella\\Reto_2\\Reto_2\\RegistrarPeticion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\samue\\OneDrive\\Documentos\\StockIQ\\reto2LaEstrella\\Reto_2\\Reto_2\\RegistrarPeticion.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T20:01:04.308Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-04-05T20:01:04.308Z"
             }
           ]
         }

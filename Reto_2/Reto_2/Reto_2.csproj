@@ -55,6 +55,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsultarPqrs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarPqrs.Designer.cs">
+      <DependentUpon>ConsultarPqrs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pop-Up.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,9 @@
     <Compile Include="LoginAdmin.Designer.cs">
       <DependentUpon>LoginAdmin.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ConsultarPqrs.resx">
+      <DependentUpon>ConsultarPqrs.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>
     </EmbeddedResource>
