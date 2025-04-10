@@ -118,6 +118,28 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnHome.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAABg2lDQ1BJQ0MgcHJvZmlsZQAAKM+VkT1I
+        w0AcxV/TSqVUFOwg4pChOlkQFdGtVLEIFkpboVUHk0u/oElDkuLiKLgWHPxYrDq4OOvq4CoIgh8g7oKT
+        oouU+L+k0CJU8OByP97lPe7eAUKjwlTTNwGommWk4jExm1sV/a/wIYAB+s5JzNQT6cUMuo6ve3j4ehfh
+        Wfjf6FPyJgM8InGU6YZFvEE8s2npnPeJQ6wkKcTnxOMGHZD4keuyy2+ciw4LPDNkZFLzxCFisdjBcgez
+        kqESTxOHFVWjfCHrssJ5i7NaqbHWOfkNg3ltJc11miOIYwkJJCFCRg1lVGAhQqtGiokU7ce6+Icdf5Jc
+        MrnKYORYQBUqJMcP/ga/uzULU5NuUjAG9LzY9sco4N8FmnXb/j627eYJ4H0GrrS2v9oAZj9Jr7e18BHQ
+        vw1cXLc1eQ+43AGGnnTJkBzJS1MoFID3M3qmHDB4CwTW3N5a+zh9ADLU1fINcHAIjBUpe73LvXs7e/vz
+        n1Z/P3nmcqqcOqymAAAACXBIWXMAAA7CAAAOwgEVKEqAAAAAB3RJTUUH6QQKEBEFWDfSoQAAAhpJREFU
+        WEfNmDtOw0AQht2QKhRAQcgBAEVUIHEDJEQCElAhRYpAFJQ0FNyBBhqUBlFyvNxg0b8w1vjfh9dry7DS
+        z2N3Hl/Gk13bxWq1Mk30/PRYajzaNoPBmimKwv7G/3qdfetU8IRPEnxrc8MmThXsm4DVwiCQTjDZ2zUP
+        dwvHTgvrsNN+KUBBGDgfTPbLYLPTE8cmRfDTQDEoLwwcpBfwCXk9R1IpxA0BOTD6slxfTB2HNkK82GWr
+        wOiK3M5vHOMuhLihClVgpEeaVEQqyYFjkgqxTwkjQVN7RJpRyp7SoFrSQ9rewuign+9vjiOLIVipQGxv
+        Ye4XcztZ9/X1VQPC4LmUKsnXvgIjO+vXx9Jx0CCc0DfYpg4INshv/5YkoV6JVSM02DZWJd07JYxvi/dB
+        jHdGnNs72E8Scg7kdWDYKASTOtgPWh8OnRxQCYNjPwTjg0odGsJXEYaxHLLjskHfML8cPw5s0DeMVdvK
+        XM7OzPHRobk6n1bmm8JYjrY9o5OG5lNgLIckWr6+OEZ9wCCv2ET3mT5gvPtMaAfOhcGekgJT2YExIWcT
+        G7aB0fMxGKyXZxN+1J3aGiZHIRjvqa2TsQOv5ygEw+vJd3pYzxXHgoJ3eqKce+Ac1d4DQ1j8N08HEAzk
+        WnZdoUbPTSJdoVAPNVXWE6UIDvpZm9dT1fpZW0tfNqlU7OiAOn8LoSWf6M/fz7AkONT1m6tvC8kQDHUK
+        4CkAAAAASUVORK5CYII=
+</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEASEkAAAEAIAC0VQAAFgAAACgAAABIAAAAkgAAAAEAIAAAAAAAIFIAAMMOAADDDgAAAAAAAAAA

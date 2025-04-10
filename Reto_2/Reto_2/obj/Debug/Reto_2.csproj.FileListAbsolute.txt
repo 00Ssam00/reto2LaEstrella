@@ -89,3 +89,5 @@ C:\Users\Kevin Romero\Desktop\Universidad\Repos\Herramientas1\reto2LaEstrella\Re
 C:\Users\Kevin Romero\Desktop\Universidad\Repos\Herramientas1\reto2LaEstrella\Reto_2\Reto_2\obj\Debug\Reto_2.csproj.Up2Date
 C:\Users\Kevin Romero\Desktop\Universidad\Repos\Herramientas1\reto2LaEstrella\Reto_2\Reto_2\obj\Debug\Reto_2.exe
 C:\Users\Kevin Romero\Desktop\Universidad\Repos\Herramientas1\reto2LaEstrella\Reto_2\Reto_2\obj\Debug\Reto_2.pdb
+C:\Users\Usuario\Documents\GitHub\reto2LaEstrella\Reto_2\Reto_2\obj\Debug\Reto_2.LoginAdmin.resources
+C:\Users\Usuario\Documents\GitHub\reto2LaEstrella\Reto_2\Reto_2\obj\Debug\Reto_2.ventanaAyuda.resources

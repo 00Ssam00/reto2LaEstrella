@@ -107,10 +107,9 @@
             this.pnl_Barra.Controls.Add(this.ayudaButton);
             this.pnl_Barra.Controls.Add(this.zoomButton);
             this.pnl_Barra.Controls.Add(this.adminButton);
-            this.pnl_Barra.Location = new System.Drawing.Point(1, 228);
-            this.pnl_Barra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnl_Barra.Location = new System.Drawing.Point(1, 185);
             this.pnl_Barra.Name = "pnl_Barra";
-            this.pnl_Barra.Size = new System.Drawing.Size(1524, 71);
+            this.pnl_Barra.Size = new System.Drawing.Size(1143, 58);
             this.pnl_Barra.TabIndex = 0;
             // 
             // idiomaButton
@@ -123,11 +122,10 @@
             this.idiomaButton.ImageRotate = 0F;
             this.idiomaButton.ImageSize = new System.Drawing.Size(35, 35);
             this.idiomaButton.IndicateFocus = true;
-            this.idiomaButton.Location = new System.Drawing.Point(1289, 17);
-            this.idiomaButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.idiomaButton.Location = new System.Drawing.Point(967, 14);
             this.idiomaButton.Name = "idiomaButton";
             this.idiomaButton.PressedState.ImageSize = new System.Drawing.Size(35, 35);
-            this.idiomaButton.Size = new System.Drawing.Size(47, 43);
+            this.idiomaButton.Size = new System.Drawing.Size(35, 35);
             this.idiomaButton.TabIndex = 11;
             this.idiomaButton.UseTransparentBackground = true;
             // 
@@ -141,11 +139,10 @@
             this.inicioButton.ImageRotate = 0F;
             this.inicioButton.ImageSize = new System.Drawing.Size(35, 35);
             this.inicioButton.IndicateFocus = true;
-            this.inicioButton.Location = new System.Drawing.Point(241, 14);
-            this.inicioButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.inicioButton.Location = new System.Drawing.Point(181, 11);
             this.inicioButton.Name = "inicioButton";
             this.inicioButton.PressedState.ImageSize = new System.Drawing.Size(35, 35);
-            this.inicioButton.Size = new System.Drawing.Size(47, 43);
+            this.inicioButton.Size = new System.Drawing.Size(35, 35);
             this.inicioButton.TabIndex = 10;
             this.inicioButton.UseTransparentBackground = true;
             // 
@@ -159,11 +156,10 @@
             this.nocturnoButton.ImageRotate = 0F;
             this.nocturnoButton.ImageSize = new System.Drawing.Size(35, 35);
             this.nocturnoButton.IndicateFocus = true;
-            this.nocturnoButton.Location = new System.Drawing.Point(1211, 17);
-            this.nocturnoButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nocturnoButton.Location = new System.Drawing.Point(908, 14);
             this.nocturnoButton.Name = "nocturnoButton";
             this.nocturnoButton.PressedState.ImageSize = new System.Drawing.Size(35, 35);
-            this.nocturnoButton.Size = new System.Drawing.Size(47, 43);
+            this.nocturnoButton.Size = new System.Drawing.Size(35, 35);
             this.nocturnoButton.TabIndex = 9;
             this.nocturnoButton.UseTransparentBackground = true;
             // 
@@ -177,11 +173,10 @@
             this.ayudaButton.ImageRotate = 0F;
             this.ayudaButton.ImageSize = new System.Drawing.Size(35, 35);
             this.ayudaButton.IndicateFocus = true;
-            this.ayudaButton.Location = new System.Drawing.Point(1135, 17);
-            this.ayudaButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ayudaButton.Location = new System.Drawing.Point(851, 14);
             this.ayudaButton.Name = "ayudaButton";
             this.ayudaButton.PressedState.ImageSize = new System.Drawing.Size(35, 35);
-            this.ayudaButton.Size = new System.Drawing.Size(47, 43);
+            this.ayudaButton.Size = new System.Drawing.Size(35, 35);
             this.ayudaButton.TabIndex = 8;
             this.ayudaButton.UseTransparentBackground = true;
             // 
@@ -195,11 +190,10 @@
             this.zoomButton.ImageRotate = 0F;
             this.zoomButton.ImageSize = new System.Drawing.Size(35, 35);
             this.zoomButton.IndicateFocus = true;
-            this.zoomButton.Location = new System.Drawing.Point(1057, 17);
-            this.zoomButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.zoomButton.Location = new System.Drawing.Point(793, 14);
             this.zoomButton.Name = "zoomButton";
             this.zoomButton.PressedState.ImageSize = new System.Drawing.Size(35, 35);
-            this.zoomButton.Size = new System.Drawing.Size(47, 43);
+            this.zoomButton.Size = new System.Drawing.Size(35, 35);
             this.zoomButton.TabIndex = 7;
             this.zoomButton.UseTransparentBackground = true;
             this.zoomButton.Click += new System.EventHandler(this.zoomButtonClick);
@@ -214,11 +208,10 @@
             this.adminButton.ImageRotate = 0F;
             this.adminButton.ImageSize = new System.Drawing.Size(35, 35);
             this.adminButton.IndicateFocus = true;
-            this.adminButton.Location = new System.Drawing.Point(983, 17);
-            this.adminButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.adminButton.Location = new System.Drawing.Point(737, 14);
             this.adminButton.Name = "adminButton";
             this.adminButton.PressedState.ImageSize = new System.Drawing.Size(35, 35);
-            this.adminButton.Size = new System.Drawing.Size(47, 43);
+            this.adminButton.Size = new System.Drawing.Size(35, 35);
             this.adminButton.TabIndex = 6;
             this.adminButton.UseTransparentBackground = true;
             this.adminButton.Click += new System.EventHandler(this.adminButtonClick);
@@ -226,10 +219,9 @@
             // pb_Encabezado
             // 
             this.pb_Encabezado.Image = ((System.Drawing.Image)(resources.GetObject("pb_Encabezado.Image")));
-            this.pb_Encabezado.Location = new System.Drawing.Point(4, 1);
-            this.pb_Encabezado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pb_Encabezado.Location = new System.Drawing.Point(3, 1);
             this.pb_Encabezado.Name = "pb_Encabezado";
-            this.pb_Encabezado.Size = new System.Drawing.Size(1524, 233);
+            this.pb_Encabezado.Size = new System.Drawing.Size(1143, 189);
             this.pb_Encabezado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_Encabezado.TabIndex = 1;
             this.pb_Encabezado.TabStop = false;
@@ -239,20 +231,18 @@
             this.lbl_Encabezado.AutoSize = true;
             this.lbl_Encabezado.Font = new System.Drawing.Font("Segoe UI Black", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Encabezado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(75)))), ((int)(((byte)(82)))));
-            this.lbl_Encabezado.Location = new System.Drawing.Point(101, 25);
-            this.lbl_Encabezado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_Encabezado.Location = new System.Drawing.Point(76, 20);
             this.lbl_Encabezado.Name = "lbl_Encabezado";
-            this.lbl_Encabezado.Size = new System.Drawing.Size(760, 54);
+            this.lbl_Encabezado.Size = new System.Drawing.Size(615, 45);
             this.lbl_Encabezado.TabIndex = 0;
             this.lbl_Encabezado.Text = "Apreciado ciudadano tenga en cuenta";
             // 
             // btnRegistrar
             // 
             this.btnRegistrar.Image = ((System.Drawing.Image)(resources.GetObject("btnRegistrar.Image")));
-            this.btnRegistrar.Location = new System.Drawing.Point(148, 2057);
-            this.btnRegistrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRegistrar.Location = new System.Drawing.Point(111, 1671);
             this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(391, 54);
+            this.btnRegistrar.Size = new System.Drawing.Size(293, 44);
             this.btnRegistrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnRegistrar.TabIndex = 5;
             this.btnRegistrar.TabStop = false;
@@ -261,10 +251,9 @@
             // btnConsultar
             // 
             this.btnConsultar.Image = ((System.Drawing.Image)(resources.GetObject("btnConsultar.Image")));
-            this.btnConsultar.Location = new System.Drawing.Point(589, 2057);
-            this.btnConsultar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnConsultar.Location = new System.Drawing.Point(442, 1671);
             this.btnConsultar.Name = "btnConsultar";
-            this.btnConsultar.Size = new System.Drawing.Size(411, 55);
+            this.btnConsultar.Size = new System.Drawing.Size(308, 45);
             this.btnConsultar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnConsultar.TabIndex = 6;
             this.btnConsultar.TabStop = false;
@@ -275,10 +264,9 @@
             this.lbl_Parrafo1.AutoSize = true;
             this.lbl_Parrafo1.BackColor = System.Drawing.Color.White;
             this.lbl_Parrafo1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Parrafo1.Location = new System.Drawing.Point(79, 89);
-            this.lbl_Parrafo1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_Parrafo1.Location = new System.Drawing.Point(59, 72);
             this.lbl_Parrafo1.Name = "lbl_Parrafo1";
-            this.lbl_Parrafo1.Size = new System.Drawing.Size(885, 94);
+            this.lbl_Parrafo1.Size = new System.Drawing.Size(708, 76);
             this.lbl_Parrafo1.TabIndex = 1;
             this.lbl_Parrafo1.Text = resources.GetString("lbl_Parrafo1.Text");
             this.lbl_Parrafo1.UseCompatibleTextRendering = true;
@@ -286,10 +274,9 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Gray;
-            this.panel1.Location = new System.Drawing.Point(87, 385);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Location = new System.Drawing.Point(65, 313);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(939, 2);
+            this.panel1.Size = new System.Drawing.Size(704, 2);
             this.panel1.TabIndex = 8;
             // 
             // lblPicoYPlaca
@@ -298,10 +285,9 @@
             this.lblPicoYPlaca.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblPicoYPlaca.Font = new System.Drawing.Font("Segoe UI Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPicoYPlaca.LinkColor = System.Drawing.Color.YellowGreen;
-            this.lblPicoYPlaca.Location = new System.Drawing.Point(77, 407);
-            this.lblPicoYPlaca.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPicoYPlaca.Location = new System.Drawing.Point(58, 331);
             this.lblPicoYPlaca.Name = "lblPicoYPlaca";
-            this.lblPicoYPlaca.Size = new System.Drawing.Size(437, 41);
+            this.lblPicoYPlaca.Size = new System.Drawing.Size(346, 32);
             this.lblPicoYPlaca.TabIndex = 9;
             this.lblPicoYPlaca.TabStop = true;
             this.lblPicoYPlaca.Text = "Exoneración de Pico y Placa:";
@@ -310,20 +296,18 @@
             // 
             this.lblParrafoPicoPlaca.AutoSize = true;
             this.lblParrafoPicoPlaca.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblParrafoPicoPlaca.Location = new System.Drawing.Point(81, 465);
-            this.lblParrafoPicoPlaca.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblParrafoPicoPlaca.Location = new System.Drawing.Point(61, 378);
             this.lblParrafoPicoPlaca.Name = "lblParrafoPicoPlaca";
-            this.lblParrafoPicoPlaca.Size = new System.Drawing.Size(540, 253);
+            this.lblParrafoPicoPlaca.Size = new System.Drawing.Size(444, 209);
             this.lblParrafoPicoPlaca.TabIndex = 11;
             this.lblParrafoPicoPlaca.Text = resources.GetString("lblParrafoPicoPlaca.Text");
             // 
             // quinceDiasHabilesPicoPlaca
             // 
             this.quinceDiasHabilesPicoPlaca.Image = ((System.Drawing.Image)(resources.GetObject("quinceDiasHabilesPicoPlaca.Image")));
-            this.quinceDiasHabilesPicoPlaca.Location = new System.Drawing.Point(677, 528);
-            this.quinceDiasHabilesPicoPlaca.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.quinceDiasHabilesPicoPlaca.Location = new System.Drawing.Point(508, 429);
             this.quinceDiasHabilesPicoPlaca.Name = "quinceDiasHabilesPicoPlaca";
-            this.quinceDiasHabilesPicoPlaca.Size = new System.Drawing.Size(323, 117);
+            this.quinceDiasHabilesPicoPlaca.Size = new System.Drawing.Size(242, 95);
             this.quinceDiasHabilesPicoPlaca.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.quinceDiasHabilesPicoPlaca.TabIndex = 14;
             this.quinceDiasHabilesPicoPlaca.TabStop = false;
@@ -334,10 +318,9 @@
             this.lblFelicitacion.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblFelicitacion.Font = new System.Drawing.Font("Segoe UI Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFelicitacion.LinkColor = System.Drawing.Color.YellowGreen;
-            this.lblFelicitacion.Location = new System.Drawing.Point(77, 750);
-            this.lblFelicitacion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblFelicitacion.Location = new System.Drawing.Point(58, 609);
             this.lblFelicitacion.Name = "lblFelicitacion";
-            this.lblFelicitacion.Size = new System.Drawing.Size(195, 41);
+            this.lblFelicitacion.Size = new System.Drawing.Size(153, 32);
             this.lblFelicitacion.TabIndex = 15;
             this.lblFelicitacion.TabStop = true;
             this.lblFelicitacion.Text = "Felicitación:";
@@ -346,10 +329,9 @@
             // 
             this.lblParrafoFelicitacion.AutoSize = true;
             this.lblParrafoFelicitacion.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblParrafoFelicitacion.Location = new System.Drawing.Point(81, 807);
-            this.lblParrafoFelicitacion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblParrafoFelicitacion.Location = new System.Drawing.Point(61, 656);
             this.lblParrafoFelicitacion.Name = "lblParrafoFelicitacion";
-            this.lblParrafoFelicitacion.Size = new System.Drawing.Size(494, 46);
+            this.lblParrafoFelicitacion.Size = new System.Drawing.Size(393, 38);
             this.lblParrafoFelicitacion.TabIndex = 17;
             this.lblParrafoFelicitacion.Text = "Es la manifestación que expresa el agrado o satisfacción con un\r\nfuncionario o co" +
     "n el proceso que genera el servicio.";
@@ -357,19 +339,17 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Gray;
-            this.panel3.Location = new System.Drawing.Point(87, 930);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Location = new System.Drawing.Point(65, 756);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(939, 2);
+            this.panel3.Size = new System.Drawing.Size(704, 2);
             this.panel3.TabIndex = 18;
             // 
             // quinceDiasHabilesFelicitacion
             // 
             this.quinceDiasHabilesFelicitacion.Image = ((System.Drawing.Image)(resources.GetObject("quinceDiasHabilesFelicitacion.Image")));
-            this.quinceDiasHabilesFelicitacion.Location = new System.Drawing.Point(677, 793);
-            this.quinceDiasHabilesFelicitacion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.quinceDiasHabilesFelicitacion.Location = new System.Drawing.Point(508, 644);
             this.quinceDiasHabilesFelicitacion.Name = "quinceDiasHabilesFelicitacion";
-            this.quinceDiasHabilesFelicitacion.Size = new System.Drawing.Size(323, 117);
+            this.quinceDiasHabilesFelicitacion.Size = new System.Drawing.Size(242, 95);
             this.quinceDiasHabilesFelicitacion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.quinceDiasHabilesFelicitacion.TabIndex = 19;
             this.quinceDiasHabilesFelicitacion.TabStop = false;
@@ -377,10 +357,9 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Gray;
-            this.panel2.Location = new System.Drawing.Point(87, 729);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Location = new System.Drawing.Point(65, 592);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(939, 2);
+            this.panel2.Size = new System.Drawing.Size(704, 2);
             this.panel2.TabIndex = 21;
             // 
             // lblPeticionInformacion
@@ -389,10 +368,9 @@
             this.lblPeticionInformacion.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblPeticionInformacion.Font = new System.Drawing.Font("Segoe UI Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPeticionInformacion.LinkColor = System.Drawing.Color.YellowGreen;
-            this.lblPeticionInformacion.Location = new System.Drawing.Point(77, 951);
-            this.lblPeticionInformacion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPeticionInformacion.Location = new System.Drawing.Point(58, 773);
             this.lblPeticionInformacion.Name = "lblPeticionInformacion";
-            this.lblPeticionInformacion.Size = new System.Drawing.Size(383, 41);
+            this.lblPeticionInformacion.Size = new System.Drawing.Size(302, 32);
             this.lblPeticionInformacion.TabIndex = 25;
             this.lblPeticionInformacion.TabStop = true;
             this.lblPeticionInformacion.Text = "Petición de Información:";
@@ -400,20 +378,18 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.Gray;
-            this.panel6.Location = new System.Drawing.Point(87, 1132);
-            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel6.Location = new System.Drawing.Point(65, 920);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(939, 2);
+            this.panel6.Size = new System.Drawing.Size(704, 2);
             this.panel6.TabIndex = 31;
             // 
             // lblParrafoPeticionInformacion
             // 
             this.lblParrafoPeticionInformacion.AutoSize = true;
             this.lblParrafoPeticionInformacion.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblParrafoPeticionInformacion.Location = new System.Drawing.Point(81, 1009);
-            this.lblParrafoPeticionInformacion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblParrafoPeticionInformacion.Location = new System.Drawing.Point(61, 820);
             this.lblParrafoPeticionInformacion.Name = "lblParrafoPeticionInformacion";
-            this.lblParrafoPeticionInformacion.Size = new System.Drawing.Size(545, 92);
+            this.lblParrafoPeticionInformacion.Size = new System.Drawing.Size(433, 76);
             this.lblParrafoPeticionInformacion.TabIndex = 26;
             this.lblParrafoPeticionInformacion.Text = resources.GetString("lblParrafoPeticionInformacion.Text");
             // 
@@ -423,10 +399,9 @@
             this.lblQueja.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblQueja.Font = new System.Drawing.Font("Segoe UI Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQueja.LinkColor = System.Drawing.Color.YellowGreen;
-            this.lblQueja.Location = new System.Drawing.Point(77, 1153);
-            this.lblQueja.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblQueja.Location = new System.Drawing.Point(58, 937);
             this.lblQueja.Name = "lblQueja";
-            this.lblQueja.Size = new System.Drawing.Size(113, 41);
+            this.lblQueja.Size = new System.Drawing.Size(88, 32);
             this.lblQueja.TabIndex = 32;
             this.lblQueja.TabStop = true;
             this.lblQueja.Text = "Queja:";
@@ -435,20 +410,18 @@
             // 
             this.lblParrafoQueja.AutoSize = true;
             this.lblParrafoQueja.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblParrafoQueja.Location = new System.Drawing.Point(81, 1211);
-            this.lblParrafoQueja.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblParrafoQueja.Location = new System.Drawing.Point(61, 984);
             this.lblParrafoQueja.Name = "lblParrafoQueja";
-            this.lblParrafoQueja.Size = new System.Drawing.Size(547, 92);
+            this.lblParrafoQueja.Size = new System.Drawing.Size(439, 76);
             this.lblParrafoQueja.TabIndex = 33;
             this.lblParrafoQueja.Text = resources.GetString("lblParrafoQueja.Text");
             // 
             // quinceDiasHabilesPeticionInformacion
             // 
             this.quinceDiasHabilesPeticionInformacion.Image = ((System.Drawing.Image)(resources.GetObject("quinceDiasHabilesPeticionInformacion.Image")));
-            this.quinceDiasHabilesPeticionInformacion.Location = new System.Drawing.Point(677, 994);
-            this.quinceDiasHabilesPeticionInformacion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.quinceDiasHabilesPeticionInformacion.Location = new System.Drawing.Point(508, 808);
             this.quinceDiasHabilesPeticionInformacion.Name = "quinceDiasHabilesPeticionInformacion";
-            this.quinceDiasHabilesPeticionInformacion.Size = new System.Drawing.Size(323, 117);
+            this.quinceDiasHabilesPeticionInformacion.Size = new System.Drawing.Size(242, 95);
             this.quinceDiasHabilesPeticionInformacion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.quinceDiasHabilesPeticionInformacion.TabIndex = 28;
             this.quinceDiasHabilesPeticionInformacion.TabStop = false;
@@ -456,19 +429,17 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Gray;
-            this.panel4.Location = new System.Drawing.Point(87, 1334);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Location = new System.Drawing.Point(65, 1084);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(939, 2);
+            this.panel4.Size = new System.Drawing.Size(704, 2);
             this.panel4.TabIndex = 34;
             // 
             // quinceDiasHabilesQueja
             // 
             this.quinceDiasHabilesQueja.Image = ((System.Drawing.Image)(resources.GetObject("quinceDiasHabilesQueja.Image")));
-            this.quinceDiasHabilesQueja.Location = new System.Drawing.Point(677, 1196);
-            this.quinceDiasHabilesQueja.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.quinceDiasHabilesQueja.Location = new System.Drawing.Point(508, 972);
             this.quinceDiasHabilesQueja.Name = "quinceDiasHabilesQueja";
-            this.quinceDiasHabilesQueja.Size = new System.Drawing.Size(323, 117);
+            this.quinceDiasHabilesQueja.Size = new System.Drawing.Size(242, 95);
             this.quinceDiasHabilesQueja.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.quinceDiasHabilesQueja.TabIndex = 35;
             this.quinceDiasHabilesQueja.TabStop = false;
@@ -479,10 +450,9 @@
             this.lblReclamo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblReclamo.Font = new System.Drawing.Font("Segoe UI Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblReclamo.LinkColor = System.Drawing.Color.YellowGreen;
-            this.lblReclamo.Location = new System.Drawing.Point(77, 1355);
-            this.lblReclamo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblReclamo.Location = new System.Drawing.Point(58, 1101);
             this.lblReclamo.Name = "lblReclamo";
-            this.lblReclamo.Size = new System.Drawing.Size(154, 41);
+            this.lblReclamo.Size = new System.Drawing.Size(121, 32);
             this.lblReclamo.TabIndex = 38;
             this.lblReclamo.TabStop = true;
             this.lblReclamo.Text = "Reclamo:";
@@ -490,20 +460,18 @@
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.Gray;
-            this.panel8.Location = new System.Drawing.Point(87, 1536);
-            this.panel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel8.Location = new System.Drawing.Point(65, 1248);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(939, 2);
+            this.panel8.Size = new System.Drawing.Size(704, 2);
             this.panel8.TabIndex = 43;
             // 
             // lblParrafoReclamo
             // 
             this.lblParrafoReclamo.AutoSize = true;
             this.lblParrafoReclamo.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblParrafoReclamo.Location = new System.Drawing.Point(81, 1413);
-            this.lblParrafoReclamo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblParrafoReclamo.Location = new System.Drawing.Point(61, 1148);
             this.lblParrafoReclamo.Name = "lblParrafoReclamo";
-            this.lblParrafoReclamo.Size = new System.Drawing.Size(548, 69);
+            this.lblParrafoReclamo.Size = new System.Drawing.Size(436, 57);
             this.lblParrafoReclamo.TabIndex = 39;
             this.lblParrafoReclamo.Text = resources.GetString("lblParrafoReclamo.Text");
             // 
@@ -513,10 +481,9 @@
             this.lblSugerencia.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblSugerencia.Font = new System.Drawing.Font("Segoe UI Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSugerencia.LinkColor = System.Drawing.Color.YellowGreen;
-            this.lblSugerencia.Location = new System.Drawing.Point(77, 1557);
-            this.lblSugerencia.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblSugerencia.Location = new System.Drawing.Point(58, 1265);
             this.lblSugerencia.Name = "lblSugerencia";
-            this.lblSugerencia.Size = new System.Drawing.Size(190, 41);
+            this.lblSugerencia.Size = new System.Drawing.Size(149, 32);
             this.lblSugerencia.TabIndex = 44;
             this.lblSugerencia.TabStop = true;
             this.lblSugerencia.Text = "Sugerencia:";
@@ -525,10 +492,9 @@
             // 
             this.lblParrafoSugerencia.AutoSize = true;
             this.lblParrafoSugerencia.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblParrafoSugerencia.Location = new System.Drawing.Point(81, 1615);
-            this.lblParrafoSugerencia.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblParrafoSugerencia.Location = new System.Drawing.Point(61, 1312);
             this.lblParrafoSugerencia.Name = "lblParrafoSugerencia";
-            this.lblParrafoSugerencia.Size = new System.Drawing.Size(537, 69);
+            this.lblParrafoSugerencia.Size = new System.Drawing.Size(428, 57);
             this.lblParrafoSugerencia.TabIndex = 45;
             this.lblParrafoSugerencia.Text = "Cuando se presenta a la Administración Municipal de La Estrella la\r\nmanifestación" +
     " de una idea o propuesta para mejorar la prestación de\r\nun servicio o la gestión" +
@@ -537,10 +503,9 @@
             // quinceDiasHabilesReclamo
             // 
             this.quinceDiasHabilesReclamo.Image = ((System.Drawing.Image)(resources.GetObject("quinceDiasHabilesReclamo.Image")));
-            this.quinceDiasHabilesReclamo.Location = new System.Drawing.Point(677, 1398);
-            this.quinceDiasHabilesReclamo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.quinceDiasHabilesReclamo.Location = new System.Drawing.Point(508, 1136);
             this.quinceDiasHabilesReclamo.Name = "quinceDiasHabilesReclamo";
-            this.quinceDiasHabilesReclamo.Size = new System.Drawing.Size(323, 117);
+            this.quinceDiasHabilesReclamo.Size = new System.Drawing.Size(242, 95);
             this.quinceDiasHabilesReclamo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.quinceDiasHabilesReclamo.TabIndex = 41;
             this.quinceDiasHabilesReclamo.TabStop = false;
@@ -548,19 +513,17 @@
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.Gray;
-            this.panel7.Location = new System.Drawing.Point(87, 1738);
-            this.panel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel7.Location = new System.Drawing.Point(65, 1412);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(939, 2);
+            this.panel7.Size = new System.Drawing.Size(704, 2);
             this.panel7.TabIndex = 46;
             // 
             // treintaDiasHabilesSugerencia
             // 
             this.treintaDiasHabilesSugerencia.Image = ((System.Drawing.Image)(resources.GetObject("treintaDiasHabilesSugerencia.Image")));
-            this.treintaDiasHabilesSugerencia.Location = new System.Drawing.Point(677, 1600);
-            this.treintaDiasHabilesSugerencia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.treintaDiasHabilesSugerencia.Location = new System.Drawing.Point(508, 1300);
             this.treintaDiasHabilesSugerencia.Name = "treintaDiasHabilesSugerencia";
-            this.treintaDiasHabilesSugerencia.Size = new System.Drawing.Size(323, 117);
+            this.treintaDiasHabilesSugerencia.Size = new System.Drawing.Size(242, 95);
             this.treintaDiasHabilesSugerencia.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.treintaDiasHabilesSugerencia.TabIndex = 47;
             this.treintaDiasHabilesSugerencia.TabStop = false;
@@ -570,20 +533,18 @@
             this.lblEstadosSolicitud.AutoSize = true;
             this.lblEstadosSolicitud.Font = new System.Drawing.Font("Segoe UI Black", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEstadosSolicitud.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(75)))), ((int)(((byte)(82)))));
-            this.lblEstadosSolicitud.Location = new System.Drawing.Point(149, 1759);
-            this.lblEstadosSolicitud.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblEstadosSolicitud.Location = new System.Drawing.Point(112, 1429);
             this.lblEstadosSolicitud.Name = "lblEstadosSolicitud";
-            this.lblEstadosSolicitud.Size = new System.Drawing.Size(735, 54);
+            this.lblEstadosSolicitud.Size = new System.Drawing.Size(593, 45);
             this.lblEstadosSolicitud.TabIndex = 49;
             this.lblEstadosSolicitud.Text = "Estados por los que pasa tu solicitud\r\n";
             // 
             // imgEstadosSolicitud
             // 
             this.imgEstadosSolicitud.Image = ((System.Drawing.Image)(resources.GetObject("imgEstadosSolicitud.Image")));
-            this.imgEstadosSolicitud.Location = new System.Drawing.Point(80, 1849);
-            this.imgEstadosSolicitud.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.imgEstadosSolicitud.Location = new System.Drawing.Point(60, 1502);
             this.imgEstadosSolicitud.Name = "imgEstadosSolicitud";
-            this.imgEstadosSolicitud.Size = new System.Drawing.Size(944, 191);
+            this.imgEstadosSolicitud.Size = new System.Drawing.Size(708, 155);
             this.imgEstadosSolicitud.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.imgEstadosSolicitud.TabIndex = 50;
             this.imgEstadosSolicitud.TabStop = false;
@@ -592,19 +553,17 @@
             // 
             this.panelDenuncia.Controls.Add(this.diezDiasHabiles);
             this.panelDenuncia.Controls.Add(this.lblParrafoDenuncia);
-            this.panelDenuncia.Location = new System.Drawing.Point(63, 245);
-            this.panelDenuncia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelDenuncia.Location = new System.Drawing.Point(47, 199);
             this.panelDenuncia.Name = "panelDenuncia";
-            this.panelDenuncia.Size = new System.Drawing.Size(983, 139);
+            this.panelDenuncia.Size = new System.Drawing.Size(737, 113);
             this.panelDenuncia.TabIndex = 51;
             // 
             // diezDiasHabiles
             // 
             this.diezDiasHabiles.Image = ((System.Drawing.Image)(resources.GetObject("diezDiasHabiles.Image")));
-            this.diezDiasHabiles.Location = new System.Drawing.Point(628, 11);
-            this.diezDiasHabiles.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.diezDiasHabiles.Location = new System.Drawing.Point(471, 9);
             this.diezDiasHabiles.Name = "diezDiasHabiles";
-            this.diezDiasHabiles.Size = new System.Drawing.Size(323, 117);
+            this.diezDiasHabiles.Size = new System.Drawing.Size(242, 95);
             this.diezDiasHabiles.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.diezDiasHabiles.TabIndex = 9;
             this.diezDiasHabiles.TabStop = false;
@@ -613,10 +572,9 @@
             // 
             this.lblParrafoDenuncia.AutoSize = true;
             this.lblParrafoDenuncia.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblParrafoDenuncia.Location = new System.Drawing.Point(32, 11);
-            this.lblParrafoDenuncia.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblParrafoDenuncia.Location = new System.Drawing.Point(24, 9);
             this.lblParrafoDenuncia.Name = "lblParrafoDenuncia";
-            this.lblParrafoDenuncia.Size = new System.Drawing.Size(532, 115);
+            this.lblParrafoDenuncia.Size = new System.Drawing.Size(424, 95);
             this.lblParrafoDenuncia.TabIndex = 8;
             this.lblParrafoDenuncia.Text = resources.GetString("lblParrafoDenuncia.Text");
             // 
@@ -627,10 +585,9 @@
             this.lbl_Denuncia.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_Denuncia.Font = new System.Drawing.Font("Segoe UI Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Denuncia.LinkColor = System.Drawing.Color.YellowGreen;
-            this.lbl_Denuncia.Location = new System.Drawing.Point(77, 202);
-            this.lbl_Denuncia.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_Denuncia.Location = new System.Drawing.Point(58, 164);
             this.lbl_Denuncia.Name = "lbl_Denuncia";
-            this.lbl_Denuncia.Size = new System.Drawing.Size(166, 41);
+            this.lbl_Denuncia.Size = new System.Drawing.Size(130, 32);
             this.lbl_Denuncia.TabIndex = 2;
             this.lbl_Denuncia.TabStop = true;
             this.lbl_Denuncia.Text = "Denuncia:";
@@ -641,10 +598,9 @@
             // 
             this.btnHideDenuncia.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnHideDenuncia.Image = ((System.Drawing.Image)(resources.GetObject("btnHideDenuncia.Image")));
-            this.btnHideDenuncia.Location = new System.Drawing.Point(999, 202);
-            this.btnHideDenuncia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnHideDenuncia.Location = new System.Drawing.Point(749, 164);
             this.btnHideDenuncia.Name = "btnHideDenuncia";
-            this.btnHideDenuncia.Size = new System.Drawing.Size(47, 43);
+            this.btnHideDenuncia.Size = new System.Drawing.Size(35, 35);
             this.btnHideDenuncia.TabIndex = 3;
             this.btnHideDenuncia.UseVisualStyleBackColor = true;
             this.btnHideDenuncia.Click += new System.EventHandler(this.btnHideClick);
@@ -693,20 +649,18 @@
             this.pnl_Principal.Controls.Add(this.btnConsultar);
             this.pnl_Principal.Controls.Add(this.btnRegistrar);
             this.pnl_Principal.Controls.Add(this.lbl_Encabezado);
-            this.pnl_Principal.Location = new System.Drawing.Point(243, 306);
-            this.pnl_Principal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnl_Principal.Location = new System.Drawing.Point(182, 249);
             this.pnl_Principal.Name = "pnl_Principal";
-            this.pnl_Principal.Size = new System.Drawing.Size(1103, 2154);
+            this.pnl_Principal.Size = new System.Drawing.Size(827, 1750);
             this.pnl_Principal.TabIndex = 3;
             // 
             // btnHideSugerencia
             // 
             this.btnHideSugerencia.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnHideSugerencia.Image = ((System.Drawing.Image)(resources.GetObject("btnHideSugerencia.Image")));
-            this.btnHideSugerencia.Location = new System.Drawing.Point(999, 1553);
-            this.btnHideSugerencia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnHideSugerencia.Location = new System.Drawing.Point(749, 1262);
             this.btnHideSugerencia.Name = "btnHideSugerencia";
-            this.btnHideSugerencia.Size = new System.Drawing.Size(47, 43);
+            this.btnHideSugerencia.Size = new System.Drawing.Size(35, 35);
             this.btnHideSugerencia.TabIndex = 56;
             this.btnHideSugerencia.UseVisualStyleBackColor = true;
             // 
@@ -714,10 +668,9 @@
             // 
             this.btnHideReclamo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnHideReclamo.Image = ((System.Drawing.Image)(resources.GetObject("btnHideReclamo.Image")));
-            this.btnHideReclamo.Location = new System.Drawing.Point(999, 1353);
-            this.btnHideReclamo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnHideReclamo.Location = new System.Drawing.Point(749, 1099);
             this.btnHideReclamo.Name = "btnHideReclamo";
-            this.btnHideReclamo.Size = new System.Drawing.Size(47, 43);
+            this.btnHideReclamo.Size = new System.Drawing.Size(35, 35);
             this.btnHideReclamo.TabIndex = 55;
             this.btnHideReclamo.UseVisualStyleBackColor = true;
             // 
@@ -725,10 +678,9 @@
             // 
             this.btnHideQueja.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnHideQueja.Image = ((System.Drawing.Image)(resources.GetObject("btnHideQueja.Image")));
-            this.btnHideQueja.Location = new System.Drawing.Point(999, 1151);
-            this.btnHideQueja.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnHideQueja.Location = new System.Drawing.Point(749, 935);
             this.btnHideQueja.Name = "btnHideQueja";
-            this.btnHideQueja.Size = new System.Drawing.Size(47, 43);
+            this.btnHideQueja.Size = new System.Drawing.Size(35, 35);
             this.btnHideQueja.TabIndex = 53;
             this.btnHideQueja.UseVisualStyleBackColor = true;
             // 
@@ -736,10 +688,9 @@
             // 
             this.btnHidePeticionInformacion.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnHidePeticionInformacion.Image = ((System.Drawing.Image)(resources.GetObject("btnHidePeticionInformacion.Image")));
-            this.btnHidePeticionInformacion.Location = new System.Drawing.Point(999, 950);
-            this.btnHidePeticionInformacion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnHidePeticionInformacion.Location = new System.Drawing.Point(749, 772);
             this.btnHidePeticionInformacion.Name = "btnHidePeticionInformacion";
-            this.btnHidePeticionInformacion.Size = new System.Drawing.Size(47, 43);
+            this.btnHidePeticionInformacion.Size = new System.Drawing.Size(35, 35);
             this.btnHidePeticionInformacion.TabIndex = 54;
             this.btnHidePeticionInformacion.UseVisualStyleBackColor = true;
             // 
@@ -747,10 +698,9 @@
             // 
             this.bntHideFelicitaciones.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bntHideFelicitaciones.Image = ((System.Drawing.Image)(resources.GetObject("bntHideFelicitaciones.Image")));
-            this.bntHideFelicitaciones.Location = new System.Drawing.Point(999, 747);
-            this.bntHideFelicitaciones.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bntHideFelicitaciones.Location = new System.Drawing.Point(749, 607);
             this.bntHideFelicitaciones.Name = "bntHideFelicitaciones";
-            this.bntHideFelicitaciones.Size = new System.Drawing.Size(47, 43);
+            this.bntHideFelicitaciones.Size = new System.Drawing.Size(35, 35);
             this.bntHideFelicitaciones.TabIndex = 53;
             this.bntHideFelicitaciones.UseVisualStyleBackColor = true;
             // 
@@ -758,26 +708,24 @@
             // 
             this.btnHidePicoPlaca.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnHidePicoPlaca.Image = ((System.Drawing.Image)(resources.GetObject("btnHidePicoPlaca.Image")));
-            this.btnHidePicoPlaca.Location = new System.Drawing.Point(999, 404);
-            this.btnHidePicoPlaca.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnHidePicoPlaca.Location = new System.Drawing.Point(749, 328);
             this.btnHidePicoPlaca.Name = "btnHidePicoPlaca";
-            this.btnHidePicoPlaca.Size = new System.Drawing.Size(47, 43);
+            this.btnHidePicoPlaca.Size = new System.Drawing.Size(35, 35);
             this.btnHidePicoPlaca.TabIndex = 52;
             this.btnHidePicoPlaca.UseVisualStyleBackColor = true;
             // 
             // HomePage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            this.ClientSize = new System.Drawing.Size(1552, 730);
+            this.ClientSize = new System.Drawing.Size(1164, 593);
             this.Controls.Add(this.pnl_Barra);
             this.Controls.Add(this.pnl_Principal);
             this.Controls.Add(this.pb_Encabezado);
             this.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "HomePage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PQRSFD ALCALDIA DE LA ESTRELLA";

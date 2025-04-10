@@ -44,10 +44,9 @@
             this.lbl_formulario.AutoSize = true;
             this.lbl_formulario.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_formulario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(78)))), ((int)(((byte)(78)))));
-            this.lbl_formulario.Location = new System.Drawing.Point(343, 60);
-            this.lbl_formulario.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_formulario.Location = new System.Drawing.Point(257, 49);
             this.lbl_formulario.Name = "lbl_formulario";
-            this.lbl_formulario.Size = new System.Drawing.Size(449, 52);
+            this.lbl_formulario.Size = new System.Drawing.Size(355, 39);
             this.lbl_formulario.TabIndex = 1;
             this.lbl_formulario.Text = "Formulario de Ingreso";
             // 
@@ -55,10 +54,9 @@
             // 
             this.lbl_OlvidarContra.AutoSize = true;
             this.lbl_OlvidarContra.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(78)))), ((int)(((byte)(78)))));
-            this.lbl_OlvidarContra.Location = new System.Drawing.Point(441, 510);
-            this.lbl_OlvidarContra.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_OlvidarContra.Location = new System.Drawing.Point(331, 414);
             this.lbl_OlvidarContra.Name = "lbl_OlvidarContra";
-            this.lbl_OlvidarContra.Size = new System.Drawing.Size(161, 16);
+            this.lbl_OlvidarContra.Size = new System.Drawing.Size(131, 13);
             this.lbl_OlvidarContra.TabIndex = 2;
             this.lbl_OlvidarContra.Text = "¿Olvidaste tu contraseña?";
             // 
@@ -66,10 +64,9 @@
             // 
             this.txtclickAqui.AutoSize = true;
             this.txtclickAqui.LinkColor = System.Drawing.Color.LimeGreen;
-            this.txtclickAqui.Location = new System.Drawing.Point(624, 510);
-            this.txtclickAqui.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.txtclickAqui.Location = new System.Drawing.Point(468, 414);
             this.txtclickAqui.Name = "txtclickAqui";
-            this.txtclickAqui.Size = new System.Drawing.Size(65, 16);
+            this.txtclickAqui.Size = new System.Drawing.Size(55, 13);
             this.txtclickAqui.TabIndex = 3;
             this.txtclickAqui.TabStop = true;
             this.txtclickAqui.Text = "Click aquí";
@@ -89,12 +86,12 @@
             this.gtxt_User.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gtxt_User.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.gtxt_User.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.gtxt_User.Location = new System.Drawing.Point(392, 262);
-            this.gtxt_User.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.gtxt_User.Location = new System.Drawing.Point(294, 213);
+            this.gtxt_User.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.gtxt_User.Name = "gtxt_User";
             this.gtxt_User.PlaceholderText = "Identificacion";
             this.gtxt_User.SelectedText = "";
-            this.gtxt_User.Size = new System.Drawing.Size(375, 52);
+            this.gtxt_User.Size = new System.Drawing.Size(281, 42);
             this.gtxt_User.TabIndex = 4;
             // 
             // gtxt_password
@@ -111,12 +108,12 @@
             this.gtxt_password.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gtxt_password.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.gtxt_password.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.gtxt_password.Location = new System.Drawing.Point(392, 331);
-            this.gtxt_password.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.gtxt_password.Location = new System.Drawing.Point(294, 269);
+            this.gtxt_password.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.gtxt_password.Name = "gtxt_password";
             this.gtxt_password.PlaceholderText = "Contraseña";
             this.gtxt_password.SelectedText = "";
-            this.gtxt_password.Size = new System.Drawing.Size(375, 50);
+            this.gtxt_password.Size = new System.Drawing.Size(281, 41);
             this.gtxt_password.TabIndex = 5;
             // 
             // pb_Login
@@ -124,10 +121,9 @@
             this.pb_Login.BackColor = System.Drawing.Color.Gray;
             this.pb_Login.Image = ((System.Drawing.Image)(resources.GetObject("pb_Login.Image")));
             this.pb_Login.InitialImage = global::Reto_2.Properties.Resources.Login;
-            this.pb_Login.Location = new System.Drawing.Point(356, 123);
-            this.pb_Login.Margin = new System.Windows.Forms.Padding(4);
+            this.pb_Login.Location = new System.Drawing.Point(267, 100);
             this.pb_Login.Name = "pb_Login";
-            this.pb_Login.Size = new System.Drawing.Size(444, 372);
+            this.pb_Login.Size = new System.Drawing.Size(333, 302);
             this.pb_Login.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pb_Login.TabIndex = 0;
             this.pb_Login.TabStop = false;
@@ -137,10 +133,9 @@
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(105)))), ((int)(((byte)(217)))));
             this.button1.Font = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(625, 396);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Location = new System.Drawing.Point(469, 322);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(141, 50);
+            this.button1.Size = new System.Drawing.Size(106, 41);
             this.button1.TabIndex = 6;
             this.button1.Text = "Ingresar";
             this.button1.UseVisualStyleBackColor = false;
@@ -148,10 +143,10 @@
             // 
             // LoginAdmin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.ClientSize = new System.Drawing.Size(1179, 591);
+            this.ClientSize = new System.Drawing.Size(884, 480);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.gtxt_password);
             this.Controls.Add(this.gtxt_User);
@@ -160,7 +155,6 @@
             this.Controls.Add(this.lbl_formulario);
             this.Controls.Add(this.pb_Login);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "LoginAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ventanaAdmin";

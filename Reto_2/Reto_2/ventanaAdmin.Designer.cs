@@ -30,50 +30,91 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ventanaAdmin));
             this.dvg_datos = new System.Windows.Forms.DataGridView();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnHome = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.btnConsultar = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.busquedaRadicado = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dvg_datos)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // dvg_datos
             // 
             this.dvg_datos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dvg_datos.Location = new System.Drawing.Point(12, 12);
+            this.dvg_datos.Location = new System.Drawing.Point(9, 10);
+            this.dvg_datos.Margin = new System.Windows.Forms.Padding(2);
             this.dvg_datos.Name = "dvg_datos";
             this.dvg_datos.RowHeadersWidth = 51;
             this.dvg_datos.RowTemplate.Height = 24;
-            this.dvg_datos.Size = new System.Drawing.Size(1289, 552);
+            this.dvg_datos.Size = new System.Drawing.Size(967, 448);
             this.dvg_datos.TabIndex = 0;
             // 
-            // pictureBox1
+            // btnHome
             // 
-            this.pictureBox1.Image = global::Reto_2.Properties.Resources.Captura_de_pantalla_2025_04_01_104725;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 604);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(38, 41);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.btnHome.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnHome.HoverState.ImageSize = new System.Drawing.Size(35, 35);
+            this.btnHome.Image = ((System.Drawing.Image)(resources.GetObject("btnHome.Image")));
+            this.btnHome.ImageOffset = new System.Drawing.Point(0, 0);
+            this.btnHome.ImageRotate = 0F;
+            this.btnHome.ImageSize = new System.Drawing.Size(35, 35);
+            this.btnHome.Location = new System.Drawing.Point(9, 491);
+            this.btnHome.Name = "btnHome";
+            this.btnHome.PressedState.ImageSize = new System.Drawing.Size(35, 35);
+            this.btnHome.Size = new System.Drawing.Size(35, 35);
+            this.btnHome.TabIndex = 2;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
+            // 
+            // btnConsultar
+            // 
+            this.btnConsultar.Location = new System.Drawing.Point(98, 527);
+            this.btnConsultar.Name = "btnConsultar";
+            this.btnConsultar.Size = new System.Drawing.Size(115, 23);
+            this.btnConsultar.TabIndex = 3;
+            this.btnConsultar.Text = "CONSULTAR";
+            this.btnConsultar.UseVisualStyleBackColor = true;
+            this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(314, 503);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "XXXX";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // busquedaRadicado
+            // 
+            this.busquedaRadicado.Location = new System.Drawing.Point(98, 491);
+            this.busquedaRadicado.Name = "busquedaRadicado";
+            this.busquedaRadicado.Size = new System.Drawing.Size(100, 20);
+            this.busquedaRadicado.TabIndex = 5;
             // 
             // ventanaAdmin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1313, 749);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(985, 609);
+            this.Controls.Add(this.busquedaRadicado);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnConsultar);
+            this.Controls.Add(this.btnHome);
             this.Controls.Add(this.dvg_datos);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ventanaAdmin";
             this.Text = "ventanaAdmin";
             ((System.ComponentModel.ISupportInitialize)(this.dvg_datos)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.DataGridView dvg_datos;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private Guna.UI2.WinForms.Guna2ImageButton btnHome;
+        private System.Windows.Forms.Button btnConsultar;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox busquedaRadicado;
     }
 }

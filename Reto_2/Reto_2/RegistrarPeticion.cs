@@ -24,14 +24,10 @@ namespace Reto_2
             public string condicionEspecial {  get; set; }
             public string tipoSolicitud { get; set; }
             public string medioRespuesta { get; set; }
-
             public string Correo {  get; set; }
-
             public string correoConfirm {  get; set; }
-
             public string Descripcion { get; set; }
             public int Radicado { get; set; }
-
             public PQRS(string tiposolicitante, string condicionespecial, string tiposolicitud, string mediorespuesta, string correo, string correoconfirm, string descripcion, int radicado)
             { 
                 tipoSolicitante = tiposolicitante;
