@@ -34,6 +34,8 @@
             this.btnConsultar = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.busquedaRadicado = new System.Windows.Forms.TextBox();
+            this.lblBuscarRadicado = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dvg_datos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -56,7 +58,7 @@
             this.btnHome.ImageOffset = new System.Drawing.Point(0, 0);
             this.btnHome.ImageRotate = 0F;
             this.btnHome.ImageSize = new System.Drawing.Size(35, 35);
-            this.btnHome.Location = new System.Drawing.Point(9, 491);
+            this.btnHome.Location = new System.Drawing.Point(938, 463);
             this.btnHome.Name = "btnHome";
             this.btnHome.PressedState.ImageSize = new System.Drawing.Size(35, 35);
             this.btnHome.Size = new System.Drawing.Size(35, 35);
@@ -65,9 +67,9 @@
             // 
             // btnConsultar
             // 
-            this.btnConsultar.Location = new System.Drawing.Point(98, 527);
+            this.btnConsultar.Location = new System.Drawing.Point(22, 545);
             this.btnConsultar.Name = "btnConsultar";
-            this.btnConsultar.Size = new System.Drawing.Size(115, 23);
+            this.btnConsultar.Size = new System.Drawing.Size(100, 23);
             this.btnConsultar.TabIndex = 3;
             this.btnConsultar.Text = "CONSULTAR";
             this.btnConsultar.UseVisualStyleBackColor = true;
@@ -75,7 +77,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(314, 503);
+            this.button2.Location = new System.Drawing.Point(242, 519);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 4;
@@ -84,16 +86,38 @@
             // 
             // busquedaRadicado
             // 
-            this.busquedaRadicado.Location = new System.Drawing.Point(98, 491);
+            this.busquedaRadicado.Location = new System.Drawing.Point(22, 519);
             this.busquedaRadicado.Name = "busquedaRadicado";
             this.busquedaRadicado.Size = new System.Drawing.Size(100, 20);
             this.busquedaRadicado.TabIndex = 5;
+            // 
+            // lblBuscarRadicado
+            // 
+            this.lblBuscarRadicado.AutoSize = true;
+            this.lblBuscarRadicado.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBuscarRadicado.Location = new System.Drawing.Point(13, 501);
+            this.lblBuscarRadicado.Name = "lblBuscarRadicado";
+            this.lblBuscarRadicado.Size = new System.Drawing.Size(120, 15);
+            this.lblBuscarRadicado.TabIndex = 6;
+            this.lblBuscarRadicado.Text = "Cuadro de Busqueda";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(19, 571);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(241, 13);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Busqueda por correo, tipo de solicitud, o radicado";
             // 
             // ventanaAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(985, 609);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblBuscarRadicado);
             this.Controls.Add(this.busquedaRadicado);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnConsultar);
@@ -116,5 +140,7 @@
         private System.Windows.Forms.Button btnConsultar;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox busquedaRadicado;
+        private System.Windows.Forms.Label lblBuscarRadicado;
+        private System.Windows.Forms.Label label1;
     }
 }
