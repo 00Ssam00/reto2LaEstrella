@@ -5,8 +5,10 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 
 namespace Reto_2
 {
@@ -91,18 +93,26 @@ namespace Reto_2
                     MessageBox.Show("Por favor, completa todos los campos antes de continuar.", "Campos incompletos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
-                else if(correo != correoConfirm)
+                // 
+                if (Regex.IsMatch(correo, @"^[^@\s]+@[^@\s]+\.[^@\s]+$")) // Verifica si el campo correo tiene el formato adecuado.
                 {
-                    MessageBox.Show("Por favor, verifica que el correo este bien diligenciado!");
+                    if (correo != correoConfirm)
+                    {
+                        MessageBox.Show("Por favor, verifica que el correo coincida con su verificacion!");
+                    }
+                    else
+                    {
+                        Random rnd = new Random();
+                        int Radicado = rnd.Next(1000000, 9999999);
+                        Convert.ToString(Radicado);
+                        MessageBox.Show($"Tu número de radicado es: {Radicado}");
+                        radicado = Radicado;
+                        pqrs.Add(new PQRS(tipoSolicitante, CondicionEspecial, tipoSolicitud, medioRespuesta, correo, correoConfirm, descripcion, radicado));
+                    }
                 }
                 else
                 {
-                    Random rnd = new Random();
-                    int Radicado = rnd.Next(1000000, 9999999);
-                    Convert.ToString(Radicado);
-                    MessageBox.Show($"Tu número de radicado es: {Radicado}");
-                    radicado = Radicado;
-                    pqrs.Add(new PQRS(tipoSolicitante, CondicionEspecial, tipoSolicitud, medioRespuesta, correo, correoConfirm, descripcion, radicado));
+                    MessageBox.Show("Por favor, verifica que el correo tenga el formato adecuado!");
                 }
 
             }
