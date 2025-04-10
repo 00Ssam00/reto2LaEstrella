@@ -13,22 +13,12 @@ namespace Reto_2
     public partial class RegistrarPeticion : Form
     {
 
-        private List<Usuario> usuarios = new List<Usuario>();
-        private List<Admin> admins = new List<Admin>();
+        private List<PQRS> pqrs = new List<PQRS>();
+        
 
-        public class Admin
-        { 
-            public string Documento;
-            public string Password;
+      
 
-            public Admin(string documento, string password)
-            {
-                Documento = documento;
-                Password = password;
-            }
-        }
-
-    public class Usuario
+    public class PQRS
     {
             public string tipoSolicitante {  get; set; }
             public string condicionEspecial {  get; set; }
@@ -40,8 +30,9 @@ namespace Reto_2
             public string correoConfirm {  get; set; }
 
             public string Descripcion { get; set; }
+            public int Radicado { get; set; }
 
-            public Usuario(string tiposolicitante, string condicionespecial, string tiposolicitud, string mediorespuesta, string correo, string correoconfirm, string descripcion)
+            public PQRS(string tiposolicitante, string condicionespecial, string tiposolicitud, string mediorespuesta, string correo, string correoconfirm, string descripcion, int radicado)
             { 
                 tipoSolicitante = tiposolicitante;
                 condicionEspecial = condicionespecial;
@@ -50,6 +41,7 @@ namespace Reto_2
                 Correo = correo;
                 correoConfirm = correoconfirm;
                 Descripcion = descripcion;
+                Radicado = radicado;
             }
 
 
@@ -58,7 +50,11 @@ namespace Reto_2
         public RegistrarPeticion()
         {
             InitializeComponent();
-            condicionEspecialComboBox.Text = "Seleccionar";
+            solicitanteComboBox.Text = "Seleccione";
+            condicionEspecialComboBox.Text = "Ninguno";
+            tipoSolicitudComboBox.Text = "Seleccione";
+            medioRespuestaComboBox.Text = "Seleccione ";
+
         }
 
         private void inicioButtonClick(object sender, EventArgs e)
@@ -83,12 +79,14 @@ namespace Reto_2
                 string correo = "";
                 string correoConfirm = "";
                 string descripcion = "";
+                int radicado = 0;
                 tipoSolicitante = solicitanteComboBox.Text;
                 CondicionEspecial = condicionEspecialComboBox.Text;
                 tipoSolicitud = tipoSolicitudComboBox.Text;
                 medioRespuesta = medioRespuestaComboBox.Text;
                 correo = txtCorreo.Text;
-                correoConfirm = txtConfirmacionCorreo.Text;
+                correoConfirm = txtConfirmacionCorreo.Text; 
+                descripcion = txtDescripcion.Text;
                 if (string.IsNullOrWhiteSpace(solicitanteComboBox.Text) || string.IsNullOrWhiteSpace(condicionEspecialComboBox.Text) ||
                     string.IsNullOrWhiteSpace(tipoSolicitudComboBox.Text) || string.IsNullOrWhiteSpace(medioRespuestaComboBox.Text) ||
                     string.IsNullOrWhiteSpace(txtCorreo.Text) ||string.IsNullOrWhiteSpace(txtConfirmacionCorreo.Text) ||
@@ -103,12 +101,12 @@ namespace Reto_2
                 }
                 else
                 {
-                    usuarios.Add(new Usuario(tipoSolicitante, CondicionEspecial, tipoSolicitud, medioRespuesta, correo, correoConfirm, descripcion));
-                    admins.Add(new Admin("1010", "1010"));
                     Random rnd = new Random();
                     int Radicado = rnd.Next(1000000, 9999999);
                     Convert.ToString(Radicado);
                     MessageBox.Show($"Tu número de radicado es: {Radicado}");
+                    radicado = Radicado;
+                    pqrs.Add(new PQRS(tipoSolicitante, CondicionEspecial, tipoSolicitud, medioRespuesta, correo, correoConfirm, descripcion, radicado));
                 }
 
             }
@@ -118,5 +116,11 @@ namespace Reto_2
             }
         }
 
+        private void adminButton_Click(object sender, EventArgs e)
+        {
+            LoginAdmin loginadmin = new LoginAdmin(pqrs);
+            loginadmin.Show();
+            this.Hide();
+        }
     }
 }

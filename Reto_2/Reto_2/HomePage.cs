@@ -13,14 +13,16 @@ namespace Reto_2
 {
     public partial class HomePage : Form
     {
+        private List<RegistrarPeticion.PQRS> pqrs = new List<RegistrarPeticion.PQRS>();
         public HomePage()
         {
             InitializeComponent();
             
+
         }
         private void adminButtonClick(object sender, EventArgs e) // Boton para abrir la ventana de admin
         {
-            ventanaAdmin ventanaAdmin = new ventanaAdmin();
+            LoginAdmin ventanaAdmin = new LoginAdmin(pqrs);
             this.Hide();
             ventanaAdmin.Show();
         }
@@ -47,9 +49,9 @@ namespace Reto_2
 
         }
 
-        private void btnConsultarClick(object sender, EventArgs e)
+        private void btnConsultar_Click(object sender, EventArgs e)
         {
-
+            //nice
         }
     }
 }

@@ -61,17 +61,17 @@
     <Compile Include="Pop-Up.Designer.cs">
       <DependentUpon>Pop-Up.cs</DependentUpon>
     </Compile>
-    <Compile Include="Radicado.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Radicado.Designer.cs">
-      <DependentUpon>Radicado.cs</DependentUpon>
-    </Compile>
     <Compile Include="RegistrarPeticion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="RegistrarPeticion.Designer.cs">
       <DependentUpon>RegistrarPeticion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaAdmin.Designer.cs">
+      <DependentUpon>ventanaAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="ventanaAyuda.cs">
       <SubType>Form</SubType>
@@ -87,11 +87,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ventanaAdmin.cs">
+    <Compile Include="LoginAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ventanaAdmin.Designer.cs">
-      <DependentUpon>ventanaAdmin.cs</DependentUpon>
+    <Compile Include="LoginAdmin.Designer.cs">
+      <DependentUpon>LoginAdmin.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>
@@ -109,14 +109,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Radicado.resx">
-      <DependentUpon>Radicado.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="RegistrarPeticion.resx">
       <DependentUpon>RegistrarPeticion.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LoginAdmin.resx">
+      <DependentUpon>LoginAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ventanaAdmin.resx">
       <DependentUpon>ventanaAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaAyuda.resx">
+      <DependentUpon>ventanaAyuda.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

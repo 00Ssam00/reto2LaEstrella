@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegistrarPeticion));
-            this.pb_Encabezado = new System.Windows.Forms.PictureBox();
             this.pnl_Barra = new System.Windows.Forms.Panel();
             this.idiomaButotn = new Guna.UI2.WinForms.Guna2ImageButton();
             this.nocturnoButton = new Guna.UI2.WinForms.Guna2ImageButton();
@@ -37,7 +36,6 @@
             this.zoomButton = new Guna.UI2.WinForms.Guna2ImageButton();
             this.adminButton = new Guna.UI2.WinForms.Guna2ImageButton();
             this.inicioButton = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.btnRegistrar = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.solicitanteComboBox = new Guna.UI2.WinForms.Guna2ComboBox();
             this.lblSolicitante = new System.Windows.Forms.Label();
@@ -47,10 +45,6 @@
             this.tipoSolicitudComboBox = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.txtDescripcion = new Guna.UI2.WinForms.Guna2TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pnl_Principal = new System.Windows.Forms.Panel();
             this.checkBoxAutorizacionDatos = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -63,29 +57,24 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.lblCondicionEspecial = new System.Windows.Forms.Label();
             this.condicionEspecialComboBox = new Guna.UI2.WinForms.Guna2ComboBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_Encabezado)).BeginInit();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnRegistrar = new System.Windows.Forms.PictureBox();
+            this.pb_Encabezado = new System.Windows.Forms.PictureBox();
             this.pnl_Barra.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnRegistrar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.pnl_Principal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRegistrar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Encabezado)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pb_Encabezado
-            // 
-            this.pb_Encabezado.Image = ((System.Drawing.Image)(resources.GetObject("pb_Encabezado.Image")));
-            this.pb_Encabezado.Location = new System.Drawing.Point(4, 1);
-            this.pb_Encabezado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.pb_Encabezado.Name = "pb_Encabezado";
-            this.pb_Encabezado.Size = new System.Drawing.Size(1524, 233);
-            this.pb_Encabezado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pb_Encabezado.TabIndex = 2;
-            this.pb_Encabezado.TabStop = false;
             // 
             // pnl_Barra
             // 
@@ -97,7 +86,7 @@
             this.pnl_Barra.Controls.Add(this.adminButton);
             this.pnl_Barra.Controls.Add(this.inicioButton);
             this.pnl_Barra.Location = new System.Drawing.Point(4, 231);
-            this.pnl_Barra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnl_Barra.Margin = new System.Windows.Forms.Padding(4);
             this.pnl_Barra.Name = "pnl_Barra";
             this.pnl_Barra.Size = new System.Drawing.Size(1525, 71);
             this.pnl_Barra.TabIndex = 4;
@@ -113,7 +102,7 @@
             this.idiomaButotn.ImageSize = new System.Drawing.Size(35, 35);
             this.idiomaButotn.IndicateFocus = true;
             this.idiomaButotn.Location = new System.Drawing.Point(1296, 12);
-            this.idiomaButotn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.idiomaButotn.Margin = new System.Windows.Forms.Padding(4);
             this.idiomaButotn.Name = "idiomaButotn";
             this.idiomaButotn.PressedState.ImageSize = new System.Drawing.Size(35, 35);
             this.idiomaButotn.Size = new System.Drawing.Size(47, 43);
@@ -131,7 +120,7 @@
             this.nocturnoButton.ImageSize = new System.Drawing.Size(35, 35);
             this.nocturnoButton.IndicateFocus = true;
             this.nocturnoButton.Location = new System.Drawing.Point(1216, 12);
-            this.nocturnoButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nocturnoButton.Margin = new System.Windows.Forms.Padding(4);
             this.nocturnoButton.Name = "nocturnoButton";
             this.nocturnoButton.PressedState.ImageSize = new System.Drawing.Size(35, 35);
             this.nocturnoButton.Size = new System.Drawing.Size(47, 43);
@@ -149,7 +138,7 @@
             this.ayudaButton.ImageSize = new System.Drawing.Size(35, 35);
             this.ayudaButton.IndicateFocus = true;
             this.ayudaButton.Location = new System.Drawing.Point(1137, 12);
-            this.ayudaButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ayudaButton.Margin = new System.Windows.Forms.Padding(4);
             this.ayudaButton.Name = "ayudaButton";
             this.ayudaButton.PressedState.ImageSize = new System.Drawing.Size(35, 35);
             this.ayudaButton.Size = new System.Drawing.Size(47, 43);
@@ -167,7 +156,7 @@
             this.zoomButton.ImageSize = new System.Drawing.Size(35, 35);
             this.zoomButton.IndicateFocus = true;
             this.zoomButton.Location = new System.Drawing.Point(1059, 12);
-            this.zoomButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.zoomButton.Margin = new System.Windows.Forms.Padding(4);
             this.zoomButton.Name = "zoomButton";
             this.zoomButton.PressedState.ImageSize = new System.Drawing.Size(35, 35);
             this.zoomButton.Size = new System.Drawing.Size(47, 43);
@@ -185,12 +174,13 @@
             this.adminButton.ImageSize = new System.Drawing.Size(35, 35);
             this.adminButton.IndicateFocus = true;
             this.adminButton.Location = new System.Drawing.Point(983, 12);
-            this.adminButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.adminButton.Margin = new System.Windows.Forms.Padding(4);
             this.adminButton.Name = "adminButton";
             this.adminButton.PressedState.ImageSize = new System.Drawing.Size(35, 35);
             this.adminButton.Size = new System.Drawing.Size(47, 43);
             this.adminButton.TabIndex = 7;
             this.adminButton.UseTransparentBackground = true;
+            this.adminButton.Click += new System.EventHandler(this.adminButton_Click);
             // 
             // inicioButton
             // 
@@ -203,25 +193,13 @@
             this.inicioButton.ImageSize = new System.Drawing.Size(35, 35);
             this.inicioButton.IndicateFocus = true;
             this.inicioButton.Location = new System.Drawing.Point(245, 12);
-            this.inicioButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.inicioButton.Margin = new System.Windows.Forms.Padding(4);
             this.inicioButton.Name = "inicioButton";
             this.inicioButton.PressedState.ImageSize = new System.Drawing.Size(35, 35);
             this.inicioButton.Size = new System.Drawing.Size(47, 43);
             this.inicioButton.TabIndex = 6;
             this.inicioButton.UseTransparentBackground = true;
             this.inicioButton.Click += new System.EventHandler(this.inicioButtonClick);
-            // 
-            // btnRegistrar
-            // 
-            this.btnRegistrar.Image = ((System.Drawing.Image)(resources.GetObject("btnRegistrar.Image")));
-            this.btnRegistrar.Location = new System.Drawing.Point(292, 533);
-            this.btnRegistrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(400, 53);
-            this.btnRegistrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnRegistrar.TabIndex = 5;
-            this.btnRegistrar.TabStop = false;
-            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrarClick);
             // 
             // label1
             // 
@@ -237,6 +215,7 @@
             // 
             // solicitanteComboBox
             // 
+            this.solicitanteComboBox.AllowDrop = true;
             this.solicitanteComboBox.BackColor = System.Drawing.Color.Transparent;
             this.solicitanteComboBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.solicitanteComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -246,14 +225,14 @@
             this.solicitanteComboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.solicitanteComboBox.ItemHeight = 30;
             this.solicitanteComboBox.Items.AddRange(new object[] {
-            "Seleccione tipo de solicitante",
+            "Seleccione",
             "Anónimo",
             "Apoderado",
             "Niños, Niñas y Adolescentes",
             "Persona Jurídica",
             "Persona Natural"});
             this.solicitanteComboBox.Location = new System.Drawing.Point(105, 111);
-            this.solicitanteComboBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.solicitanteComboBox.Margin = new System.Windows.Forms.Padding(4);
             this.solicitanteComboBox.Name = "solicitanteComboBox";
             this.solicitanteComboBox.Size = new System.Drawing.Size(311, 36);
             this.solicitanteComboBox.TabIndex = 9;
@@ -313,6 +292,7 @@
             // 
             // tipoSolicitudComboBox
             // 
+            this.tipoSolicitudComboBox.AllowDrop = true;
             this.tipoSolicitudComboBox.BackColor = System.Drawing.Color.Transparent;
             this.tipoSolicitudComboBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.tipoSolicitudComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -322,6 +302,7 @@
             this.tipoSolicitudComboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.tipoSolicitudComboBox.ItemHeight = 30;
             this.tipoSolicitudComboBox.Items.AddRange(new object[] {
+            "Seleccione",
             "Denuncia",
             "Exoneración de Pico y Placa",
             "Felicitación",
@@ -330,7 +311,7 @@
             "Reclamo",
             "Sugerencia"});
             this.tipoSolicitudComboBox.Location = new System.Drawing.Point(105, 298);
-            this.tipoSolicitudComboBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tipoSolicitudComboBox.Margin = new System.Windows.Forms.Padding(4);
             this.tipoSolicitudComboBox.Name = "tipoSolicitudComboBox";
             this.tipoSolicitudComboBox.Size = new System.Drawing.Size(311, 36);
             this.tipoSolicitudComboBox.TabIndex = 14;
@@ -368,50 +349,6 @@
             this.txtDescripcion.Size = new System.Drawing.Size(312, 127);
             this.txtDescripcion.TabIndex = 16;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(59, 112);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(47, 43);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 17;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(59, 204);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(47, 43);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 18;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(59, 299);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(47, 43);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 19;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(59, 389);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(47, 43);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 20;
-            this.pictureBox4.TabStop = false;
-            // 
             // pnl_Principal
             // 
             this.pnl_Principal.BackColor = System.Drawing.Color.White;
@@ -441,7 +378,7 @@
             this.pnl_Principal.Controls.Add(this.label1);
             this.pnl_Principal.Controls.Add(this.btnRegistrar);
             this.pnl_Principal.Location = new System.Drawing.Point(300, 329);
-            this.pnl_Principal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnl_Principal.Margin = new System.Windows.Forms.Padding(4);
             this.pnl_Principal.Name = "pnl_Principal";
             this.pnl_Principal.Size = new System.Drawing.Size(968, 642);
             this.pnl_Principal.TabIndex = 5;
@@ -450,7 +387,7 @@
             // 
             this.checkBoxAutorizacionDatos.AutoSize = true;
             this.checkBoxAutorizacionDatos.Location = new System.Drawing.Point(472, 389);
-            this.checkBoxAutorizacionDatos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxAutorizacionDatos.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxAutorizacionDatos.Name = "checkBoxAutorizacionDatos";
             this.checkBoxAutorizacionDatos.Size = new System.Drawing.Size(411, 84);
             this.checkBoxAutorizacionDatos.TabIndex = 31;
@@ -473,7 +410,7 @@
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.Location = new System.Drawing.Point(473, 299);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(47, 43);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -482,6 +419,7 @@
             // 
             // medioRespuestaComboBox
             // 
+            this.medioRespuestaComboBox.AllowDrop = true;
             this.medioRespuestaComboBox.BackColor = System.Drawing.Color.Transparent;
             this.medioRespuestaComboBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.medioRespuestaComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -491,12 +429,13 @@
             this.medioRespuestaComboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.medioRespuestaComboBox.ItemHeight = 30;
             this.medioRespuestaComboBox.Items.AddRange(new object[] {
+            "Seleccione",
             "Correo Electronico",
             "Correo Certificado",
             "Telefonicamente",
             "Entrega Fisica (Personalmente)"});
             this.medioRespuestaComboBox.Location = new System.Drawing.Point(520, 298);
-            this.medioRespuestaComboBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.medioRespuestaComboBox.Margin = new System.Windows.Forms.Padding(4);
             this.medioRespuestaComboBox.Name = "medioRespuestaComboBox";
             this.medioRespuestaComboBox.Size = new System.Drawing.Size(311, 36);
             this.medioRespuestaComboBox.TabIndex = 28;
@@ -516,7 +455,7 @@
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
             this.pictureBox6.Location = new System.Drawing.Point(473, 204);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(47, 43);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -558,7 +497,7 @@
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(473, 112);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(47, 43);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -578,6 +517,7 @@
             // 
             // condicionEspecialComboBox
             // 
+            this.condicionEspecialComboBox.AllowDrop = true;
             this.condicionEspecialComboBox.BackColor = System.Drawing.Color.Transparent;
             this.condicionEspecialComboBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.condicionEspecialComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -599,10 +539,77 @@
             "Primera Infancia",
             "Victima - Conflicto Armado"});
             this.condicionEspecialComboBox.Location = new System.Drawing.Point(520, 111);
-            this.condicionEspecialComboBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.condicionEspecialComboBox.Margin = new System.Windows.Forms.Padding(4);
             this.condicionEspecialComboBox.Name = "condicionEspecialComboBox";
             this.condicionEspecialComboBox.Size = new System.Drawing.Size(311, 36);
             this.condicionEspecialComboBox.TabIndex = 21;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(59, 389);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(47, 43);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 20;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(59, 299);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(47, 43);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 19;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(59, 204);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(47, 43);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 18;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(59, 112);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(47, 43);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 17;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnRegistrar
+            // 
+            this.btnRegistrar.Image = ((System.Drawing.Image)(resources.GetObject("btnRegistrar.Image")));
+            this.btnRegistrar.Location = new System.Drawing.Point(292, 533);
+            this.btnRegistrar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnRegistrar.Name = "btnRegistrar";
+            this.btnRegistrar.Size = new System.Drawing.Size(400, 53);
+            this.btnRegistrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnRegistrar.TabIndex = 5;
+            this.btnRegistrar.TabStop = false;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrarClick);
+            // 
+            // pb_Encabezado
+            // 
+            this.pb_Encabezado.Image = ((System.Drawing.Image)(resources.GetObject("pb_Encabezado.Image")));
+            this.pb_Encabezado.Location = new System.Drawing.Point(4, 1);
+            this.pb_Encabezado.Margin = new System.Windows.Forms.Padding(4);
+            this.pb_Encabezado.Name = "pb_Encabezado";
+            this.pb_Encabezado.Size = new System.Drawing.Size(1524, 233);
+            this.pb_Encabezado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_Encabezado.TabIndex = 2;
+            this.pb_Encabezado.TabStop = false;
             // 
             // RegistrarPeticion
             // 
@@ -613,22 +620,23 @@
             this.Controls.Add(this.pnl_Principal);
             this.Controls.Add(this.pnl_Barra);
             this.Controls.Add(this.pb_Encabezado);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "RegistrarPeticion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RegistrarPeticion";
-            ((System.ComponentModel.ISupportInitialize)(this.pb_Encabezado)).EndInit();
             this.pnl_Barra.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.btnRegistrar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.pnl_Principal.ResumeLayout(false);
             this.pnl_Principal.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRegistrar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Encabezado)).EndInit();
             this.ResumeLayout(false);
 
         }

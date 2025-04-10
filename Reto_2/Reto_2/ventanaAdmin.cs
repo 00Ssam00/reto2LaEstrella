@@ -12,15 +12,27 @@ namespace Reto_2
 {
     public partial class ventanaAdmin : Form
     {
-        public ventanaAdmin()
+        private List<RegistrarPeticion.PQRS> pqrs;
+        public ventanaAdmin(List<RegistrarPeticion.PQRS> pqrs)
         {
             InitializeComponent();
+            this.pqrs = pqrs;
+            MessageBox.Show($"Pqrs recibidas: {pqrs.Count}");
+            CargarDatos();
         }
 
-        private void txtClickAquiLinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void CargarDatos()
         {
-            Pop_Up pop_Up = new Pop_Up();
-            pop_Up.ShowDialog();
+            dvg_datos.DataSource = null;
+            dvg_datos.DataSource = pqrs;
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            HomePage homePage = new HomePage();
+            homePage.Show();
+            this.Hide();
         }
     }
 }
