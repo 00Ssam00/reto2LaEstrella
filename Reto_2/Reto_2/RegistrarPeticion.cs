@@ -30,7 +30,8 @@ namespace Reto_2
             public string correoConfirm {  get; set; }
             public string Descripcion { get; set; }
             public int Radicado { get; set; }
-            public PQRS(string tiposolicitante, string condicionespecial, string tiposolicitud, string mediorespuesta, string correo, string correoconfirm, string descripcion, int radicado)
+            public bool Estado { get; set; } = false; // Estado por defecto es falso, no se ha atendido la solicitud
+            public PQRS(string tiposolicitante, string condicionespecial, string tiposolicitud, string mediorespuesta, string correo, string correoconfirm, string descripcion, int radicado, bool estado)
             { 
                 tipoSolicitante = tiposolicitante;
                 condicionEspecial = condicionespecial;
@@ -40,6 +41,7 @@ namespace Reto_2
                 correoConfirm = correoconfirm;
                 Descripcion = descripcion;
                 Radicado = radicado;
+                Estado = estado;
             }
 
 
@@ -71,15 +73,16 @@ namespace Reto_2
             if (checkBoxAutorizacionDatos.Checked == true)
             {
                 string tipoSolicitante = "";
-                string CondicionEspecial = "";
+                string condicionEspecial = "";
                 string tipoSolicitud = "";
                 string medioRespuesta = "";
                 string correo = "";
                 string correoConfirm = "";
                 string descripcion = "";
                 int radicado = 0;
+                bool estado = false;
                 tipoSolicitante = solicitanteComboBox.Text;
-                CondicionEspecial = condicionEspecialComboBox.Text;
+                condicionEspecial = condicionEspecialComboBox.Text;
                 tipoSolicitud = tipoSolicitudComboBox.Text;
                 medioRespuesta = medioRespuestaComboBox.Text;
                 correo = txtCorreo.Text;
@@ -90,10 +93,25 @@ namespace Reto_2
                     string.IsNullOrWhiteSpace(txtCorreo.Text) ||string.IsNullOrWhiteSpace(txtConfirmacionCorreo.Text) ||
                     string.IsNullOrWhiteSpace(txtDescripcion.Text))
                 {
-                    MessageBox.Show("Por favor, completa todos los campos antes de continuar.", "Campos incompletos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Por favor, completa todos los campos antes de continuar.");
                     return;
                 }
-                // 
+                if (tipoSolicitante == "Seleccione") { // Verifica si el campo solicitante tiene el valor por defecto.
+                    MessageBox.Show("Por favor, selecciona un tipo de solicitante.");
+                    return;
+                }
+                else if (tipoSolicitud == "Seleccione") { // Verifica si el campo tipo de solicitud tiene el valor por defecto.
+                    MessageBox.Show("Por favor, selecciona un tipo de solicitud.");
+                    return;
+                }
+                else if (medioRespuesta == "Seleccione") { // Verifica si el campo medio de respuesta tiene el valor por defecto.
+                    MessageBox.Show("Por favor, selecciona un medio de respuesta.");
+                    return;
+                }
+                else if (condicionEspecial == "Seleccione") { // Verifica si el campo condicion especial tiene el valor por defecto.
+                    MessageBox.Show("Por favor, selecciona una condicion especial.");
+                    return;
+                }
                 if (Regex.IsMatch(correo, @"^[^@\s]+@[^@\s]+\.[^@\s]+$")) // Verifica si el campo correo tiene el formato adecuado.
                 {
                     if (correo != correoConfirm)
@@ -103,11 +121,11 @@ namespace Reto_2
                     else
                     {
                         Random rnd = new Random();
-                        int Radicado = rnd.Next(1000000, 9999999);
+                        int Radicado = rnd.Next(10000, 99999);
                         Convert.ToString(Radicado);
                         MessageBox.Show($"Tu número de radicado es: {Radicado}");
                         radicado = Radicado;
-                        pqrs.Add(new PQRS(tipoSolicitante, CondicionEspecial, tipoSolicitud, medioRespuesta, correo, correoConfirm, descripcion, radicado));
+                        pqrs.Add(new PQRS(tipoSolicitante, condicionEspecial, tipoSolicitud, medioRespuesta, correo, correoConfirm, descripcion, radicado, estado));
                     }
                 }
                 else

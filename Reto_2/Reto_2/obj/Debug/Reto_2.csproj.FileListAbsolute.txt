@@ -93,3 +93,4 @@ C:\Users\Usuario\Documents\GitHub\reto2LaEstrella\Reto_2\Reto_2\obj\Debug\Reto_2
 C:\Users\Usuario\Documents\GitHub\reto2LaEstrella\Reto_2\Reto_2\obj\Debug\Reto_2.ventanaAyuda.resources
 C:\Users\samue\OneDrive\Documentos\StockIQ\reto2LaEstrella\Reto_2\Reto_2\obj\Debug\Reto_2.LoginAdmin.resources
 C:\Users\samue\OneDrive\Documentos\StockIQ\reto2LaEstrella\Reto_2\Reto_2\obj\Debug\Reto_2.ventanaAyuda.resources
+C:\Users\Usuario\Documents\GitHub\reto2LaEstrella\Reto_2\Reto_2\obj\Debug\Reto_2.ConsultarPqrs.resources

@@ -17,8 +17,6 @@ namespace Reto_2
         public HomePage()
         {
             InitializeComponent();
-            
-
         }
         private void adminButtonClick(object sender, EventArgs e) // Boton para abrir la ventana de admin
         {
@@ -51,7 +49,9 @@ namespace Reto_2
 
         private void btnConsultar_Click(object sender, EventArgs e)
         {
-            //nice
+            ConsultarPqrs consultarPqrs = new ConsultarPqrs(pqrs);
+            this.Hide();
+            consultarPqrs.Show();
         }
     }
 }

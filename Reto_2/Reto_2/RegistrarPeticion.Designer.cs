@@ -261,7 +261,7 @@
             this.txtCorreo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtCorreo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtCorreo.Location = new System.Drawing.Point(79, 165);
-            this.txtCorreo.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtCorreo.Margin = new System.Windows.Forms.Padding(6);
             this.txtCorreo.Name = "txtCorreo";
             this.txtCorreo.PlaceholderText = "Correo Electrónico";
             this.txtCorreo.SelectedText = "";
@@ -326,7 +326,7 @@
             this.txtDescripcion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtDescripcion.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtDescripcion.Location = new System.Drawing.Point(79, 316);
-            this.txtDescripcion.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtDescripcion.Margin = new System.Windows.Forms.Padding(6);
             this.txtDescripcion.Multiline = true;
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.PlaceholderText = "Ingrese aqui su descripción";
@@ -365,7 +365,7 @@
             this.pnl_Principal.Controls.Add(this.btnRegistrar);
             this.pnl_Principal.Location = new System.Drawing.Point(225, 267);
             this.pnl_Principal.Name = "pnl_Principal";
-            this.pnl_Principal.Size = new System.Drawing.Size(726, 522);
+            this.pnl_Principal.Size = new System.Drawing.Size(726, 489);
             this.pnl_Principal.TabIndex = 5;
             // 
             // checkBoxAutorizacionDatos
@@ -454,7 +454,7 @@
             this.txtConfirmacionCorreo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtConfirmacionCorreo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtConfirmacionCorreo.Location = new System.Drawing.Point(390, 165);
-            this.txtConfirmacionCorreo.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtConfirmacionCorreo.Margin = new System.Windows.Forms.Padding(6);
             this.txtConfirmacionCorreo.Name = "txtConfirmacionCorreo";
             this.txtConfirmacionCorreo.PlaceholderText = "Correo Electrónico";
             this.txtConfirmacionCorreo.SelectedText = "";

@@ -36,6 +36,7 @@ namespace Reto_2
         }
         private void btnConsultar_Click(object sender, EventArgs e)
         {
+            
             string busqueda = busquedaRadicado.Text.Trim(); // Le entrega a la variable busqueda lo ingresado en el textbox
 
             if (string.IsNullOrEmpty(busqueda)) // Si el textbox no tiene informacion, se muestra toda la lista.
@@ -70,6 +71,20 @@ namespace Reto_2
             else // Si no se encuentra ningun resultado, se muestra un mensaje
             {
                 MessageBox.Show("No se encontró ningún resultado que coincida.");
+            }
+        }
+
+        private void btnEstado_Click(object sender, EventArgs e)
+        {
+            if (dvg_datos.CurrentRow != null && dvg_datos.CurrentRow.DataBoundItem is RegistrarPeticion.PQRS seleccionado) {
+                seleccionado.Estado = true;
+
+                // Refrescar DataGridView
+                dvg_datos.DataSource = null;
+                dvg_datos.DataSource = pqrs;
+            }
+            else {
+                MessageBox.Show("Por favor, selecciona una fila válida.");
             }
         }
     }
